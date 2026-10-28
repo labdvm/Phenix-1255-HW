@@ -6,3 +6,9 @@
 - For this board needs any PC with USB 2.0, CPU AMD or Intel CPU with 4 cores, min. 4GB/DDR3 RAM, SSD drive, and XUbuntu x64.
 ------
 - https://github.com/w4tchd0g/phenix-1255-sw/tree/develop
+
+Copyright Z32IT 2026.
+
+This source describes Open Hardware and is licensed under the CERN-OHL-P v2.
+...
+Source location: https://github.com/labdvm/Phenix-1255-HW
