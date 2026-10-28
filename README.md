@@ -1,0 +1,2 @@
+# Phenix-1255-HW
+SX1255 HAT for FRDM-MCXN947
