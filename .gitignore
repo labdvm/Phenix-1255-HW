@@ -1,0 +1,18 @@
+# KiCad local / temporary files
+*.kicad_prl
+*.lck
+*-backups/
+_autosave-*
+*.bak
+*-bak
+*~
+fp-info-cache
+\#auto_saved_files\#
+*.round-tracks-config
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.history/
