@@ -5,7 +5,6 @@
 - This board works on High speed USB or LAN. Can be used PoE splitter 48V to 5V USB-C.
 - For this board needs any PC with USB 2.0, CPU AMD or Intel CPU with 4 cores, min. 4GB/DDR3 RAM, SSD drive, and XUbuntu x64.
 ------
-- https://github.com/w4tchd0g/phenix-1255-sw/tree/develop
 
 Copyright Z32IT 2026.
 
