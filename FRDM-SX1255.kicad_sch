@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "FRDM-MCXN947 + SX1255")
-		(date "2026-10-28")
+		(date "2026-10-29")
 		(rev "V1.3")
 		(company "Z32IT, DM5LF")
 		(comment 1 "Phenix-1255")
@@ -10161,7 +10161,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Johanson Technology Inc."
+		(property "Manufacturer" "Murata Electronics"
 			(at 213.36 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10172,7 +10172,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "LRC0603CJ82NGV001T"
+		(property "Manufacturer Product Number" "LQW18AS82NG00D"
 			(at 213.36 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10183,7 +10183,7 @@
 				)
 			)
 		)
-		(property "Part Number" "712-LRC0603CJ82NGV001TCT-ND"
+		(property "Part Number" "490-LQW18AS82NG00DCT-ND"
 			(at 213.36 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14980,7 +14980,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Johanson Technology Inc."
+		(property "Manufacturer" "Murata Electronics"
 			(at 218.44 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -14991,7 +14991,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "LRC0603CJ39NGV001T"
+		(property "Manufacturer Product Number" "LQW18AS39NG00D"
 			(at 218.44 50.8 90)
 			(hide yes)
 			(show_name no)
@@ -15002,7 +15002,7 @@
 				)
 			)
 		)
-		(property "Part Number" "712-LRC0603CJ39NGV001TCT-ND"
+		(property "Part Number" "490-LQW18AS39NG00DCT-ND"
 			(at 218.44 50.8 90)
 			(hide yes)
 			(show_name no)
