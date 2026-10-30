@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "FRDM-MCXN947 + SX1255")
-		(date "2026-10-28")
+		(date "2026-10-29")
 		(rev "V1.4")
 		(company "Z32IT, DM5LF")
 		(comment 1 "Phenix 1255")
@@ -8055,7 +8055,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Johanson Technology Inc."
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8068,7 +8068,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "LRC0603CJ82NGV001T"
+		(property "Manufacturer Product Number" "LQW18AS82NG00D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8081,7 +8081,7 @@
 				)
 			)
 		)
-		(property "Part Number" "712-LRC0603CJ82NGV001TCT-ND"
+		(property "Part Number" "490-LQW18AS82NG00DCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14065,7 +14065,7 @@
 		(at 151.5 82.75 180)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
-		(property "Reference" "bypass"
+		(property "Reference" "JP2"
 			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "c85fa027-2895-48d8-a00a-73d279b50c17")
@@ -15107,7 +15107,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Johanson Technology Inc."
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15120,7 +15120,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "LRC0603CJ39NGV001T"
+		(property "Manufacturer Product Number" "LQW18AS39NG00D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15133,7 +15133,7 @@
 				)
 			)
 		)
-		(property "Part Number" "712-LRC0603CJ39NGV001TCT-ND"
+		(property "Part Number" "490-LQW18AS39NG00DCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22518,6 +22518,15 @@
 		(uuid "0987916e-19f5-40c8-88a4-757a47b10821")
 	)
 	(via
+		(at 84.25 64.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "09dc8973-d8e1-4d1b-a487-0c684dab1d81")
+	)
+	(via
 		(at 138.75 104.5)
 		(size 0.6)
 		(drill 0.3)
@@ -22669,6 +22678,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "1723d4af-66bc-4f28-bbd3-873ae08b1996")
+	)
+	(via
+		(at 84 109.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "174984ad-ca74-400f-b2a3-fcd9c83d2dd6")
 	)
 	(via
 		(at 153.5 90.5)
@@ -22858,6 +22876,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "270ee096-36f8-43f3-9547-7b6d647a509f")
+	)
+	(via
+		(at 157.75 83.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "2771de5f-3161-4d93-b2f5-68d67341efd5")
 	)
 	(via
 		(at 181.907395 93.576366)
@@ -23472,6 +23499,15 @@
 		(uuid "5032c786-95a4-4ff0-ba2d-ef80ac9e0bf3")
 	)
 	(via
+		(at 84 108.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "51b8e460-8388-43d0-a3ff-bb3276cb5c1a")
+	)
+	(via
 		(at 137.75 91.5)
 		(size 0.6)
 		(drill 0.3)
@@ -23632,6 +23668,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "5c7a621f-bedb-404f-b7ed-fe313d8c1228")
+	)
+	(via
+		(at 157.75 84)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "5ce56eec-8a5c-4eb4-8c4f-a8c4d04809f8")
 	)
 	(via
 		(at 186.75 98.25)
@@ -24471,6 +24516,15 @@
 		(uuid "aa60f2ab-1f93-414d-8a73-a3a56aa0992d")
 	)
 	(via
+		(at 84.25 65.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "ab2c05d8-ebed-436d-8f95-903c64b57aeb")
+	)
+	(via
 		(at 141.817052 100.685287)
 		(size 0.6)
 		(drill 0.3)
@@ -24694,6 +24748,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "c64dbc07-ee22-4670-9ba5-1ba5175c6740")
+	)
+	(via
+		(at 84.25 67)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "c8da912b-1921-4db1-9733-5ee661b15594")
 	)
 	(via
 		(at 102.403629 95.501811)
@@ -24964,6 +25027,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "ddcaa5e4-97dd-49d1-aa07-fd3c55029305")
+	)
+	(via
+		(at 84 110.75)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "ddf8d8db-95bb-471c-9d7c-496db5a9b061")
 	)
 	(via
 		(at 127.75 99.5)
