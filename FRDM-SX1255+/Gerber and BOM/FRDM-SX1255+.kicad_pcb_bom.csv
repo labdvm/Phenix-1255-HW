@@ -31,8 +31,8 @@ R21,1,3K3,R_0603_1608Metric,,541-3.30KHCT-ND,,smt,SMD_2terminal_chip_molded,Vish
 "R31, R33",2,150R,R_0603_1608Metric,,YAG1533CT-ND,,smt,SMD_2terminal_chip_molded,YAGEO,RT0603BRD07150RL,,,,,,
 R32,1,36R,R_0603_1608Metric,,13-RT0603BRC0736RLCT-ND,,smt,SMD_2terminal_chip_molded,YAGEO,RT0603BRC0736RL,,,,,,
 Rotary,1,RotaryEncoder_Switch,RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm,,,,tht,,,,"Rotary encoder, dual channel, incremental quadrate outputs, with switch",,,,,
-U1,1,TQP3M9036,SON50P200X200X95-9N,,2312-TQP3M9036CT-ND,,smt,,Qorvo,TQP3M9036,,,,,,
 U1,1,MCP1703Ax-330xxDB,SOT-223-3_TabPin2,,MCP1703T-3302E/DBCT-ND,,smt,,Microchip Technology,MCP1703T-3302E/DB,,,,,,
+U1,1,TQP3M9036,SON50P200X200X95-9N,,2312-TQP3M9036CT-ND,,smt,,Qorvo,TQP3M9036,,,,,,
 USB/LAN,1,SPDT_Slide_SMD_7.2x3.5mm,Slide_DPDT_SMD_7.2x3.5mm,,,,smt,,,,"Switch, single pole double throw",,,SWCH-08179,AYZ0202,
 X1,1,B3909,Filter_SAW_Epcos_DCC6C_3x3mm,,B39431B3909U410-ND,,smt,,Qualcomm (RF front-end (RFFE) filters),B39431B3909U410,Qualcomm – TDK SAW filter 6-pin,,,,,
 Y1,1,38.4MHz,Crystal_SMD_3225-4Pin_3.2x2.5mm,,114-TG2520SMN38.4000M-MCGNNM3CT-ND,,smt,crystal_resonator_oscillator,EPSON ,TG2520SMN 38.4000M-MCGNNM3,Clipped SW/0.5~1ppm,,,,,3225 or 2510
