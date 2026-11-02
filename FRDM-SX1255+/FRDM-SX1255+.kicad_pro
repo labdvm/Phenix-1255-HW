@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V1.0"
+      "sch_revision": "V1.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -707,7 +707,7 @@
         "uuid": "f23fb6c7-235c-437c-af25-1fad286dfcda"
       }
     ],
-    "used_designators": "#PWR7,#PWR10-12,#PWR45,#PWR101-103,C28,C30-31,F1,L4,R19-20,R31-33,Rotary1,U4,USB/LAN1,X2",
+    "used_designators": "#PWR1-42,#PWR45,#PWR101-103,C1-20,C28,C30-31,D1-5,F1,FL1,IC1,J1-7,JP1,L1-4,Q1,R1-33,Rotary1,U1-2,U4,USB/LAN1,X1-2,Y1",
     "variants": []
   },
   "sheets": [

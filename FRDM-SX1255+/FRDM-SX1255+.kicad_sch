@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "FRDM-MCXN947 + SX1255 +PA")
-		(date "2026-10-28")
-		(rev "V1.0")
+		(date "2026-11-02")
+		(rev "V1.1")
 		(company "Z32IT, DM5LF")
 		(comment 1 "Phenix-1255 Plus")
 	)
@@ -4889,312 +4889,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Filter:B3715"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "X"
-				(at 5.08 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "B3715"
-				(at -2.54 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Filter:Filter_SAW_Epcos_DCC6C_3x3mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.de/datasheet/2/842/epcos16633_1-2300371.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bandpass Filter, 869MHz, SAW filter 6-pin"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SAW Filter 869 bandpass"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Filter*SAW*DCC6C*3x3mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "B3715_1_1"
-				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy 2.54 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy 2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
-					(mid -1.27 3.8045)
-					(end 0 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.2645)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.54)
-					(mid -1.27 -1.2755)
-					(end 0 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.54)
-					(mid 1.27 1.2755)
-					(end 0 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 1.27 -1.2645)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.54)
-					(mid 1.27 -3.8045)
-					(end 0 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 3.81)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 3.81)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 90)
-					(length 3.81)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_Filter:LFCN-490"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5416,6 +5110,312 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RF_Filter:TA0970B"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at -5.08 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TA0970B"
+				(at -1.27 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Filter:Filter_SAW-6_3.8x3.8mm"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.golledge.com/media/3785/mp08167.pdf"
+				(at -5.08 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Bandpass Filter, 1090MHz, SAW filter 6-pin"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SAW Filter 1090 bandpass MP08167"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Filter*SAW*3.8x3.8mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TA0970B_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.81) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.27 3.8045)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.27 -1.2755)
+					(end 0 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.54)
+					(mid 1.27 1.2755)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.27 -1.2645)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.54)
+					(mid 1.27 -3.8045)
+					(end 0 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 3.81)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 3.81)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 90)
+					(length 3.81)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11097,7 +11097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03f55bce-30ec-4115-89e9-07c1bc7b30e1")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR018"
 			(at 128.27 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -11157,7 +11157,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR023")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11175,7 +11175,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09ef4dd0-2d69-4c6e-9122-8dc9ceede7f9")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 222.25 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11270,7 +11270,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -11288,7 +11288,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cc25aa6-c389-4aa8-9d41-a4f6a7f6a214")
-		(property "Reference" "C31"
+		(property "Reference" "C9"
 			(at 123.444 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11383,7 +11383,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C31")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11400,7 +11400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0cd91372-3c63-4a19-83a1-7de6090719df")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR036"
 			(at 293.37 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -11461,7 +11461,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR07")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11479,7 +11479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10e5306d-e7c8-4492-80a4-30883f91e5dc")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR019"
 			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11539,7 +11539,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR0102")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11556,7 +11556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1452595c-b374-43d5-b2c1-873c70a343cc")
-		(property "Reference" "R23"
+		(property "Reference" "R30"
 			(at 351.282 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11651,7 +11651,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R23")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -11668,7 +11668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14aaeca8-9773-4f0d-a345-958614a4e489")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 344.424 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11774,7 +11774,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11791,7 +11791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "175fa8cd-ed5b-43bd-88a8-9eaa1024d63f")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 200.66 186.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11886,7 +11886,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -11904,7 +11904,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "179c0d22-a4ca-4a3f-bf12-1a3f46311b0a")
-		(property "Reference" "J3"
+		(property "Reference" "J6"
 			(at 359.41 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12008,7 +12008,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12025,7 +12025,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18da1374-8392-42c2-82e5-9c9e1b26f1dd")
-		(property "Reference" "R19"
+		(property "Reference" "R28"
 			(at 292.608 193.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12120,7 +12120,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R19")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12138,7 +12138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19b15a83-0350-4a9f-8aa4-024395137360")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR013"
 			(at 104.14 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -12198,7 +12198,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR035")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12215,7 +12215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e90d155-8dd3-4adb-a9e9-ef0a79ec0581")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 362.712 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12310,7 +12310,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -12327,7 +12327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f416d62-a115-4781-a801-16f9cf4f3d53")
-		(property "Reference" "R31"
+		(property "Reference" "R8"
 			(at 163.068 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12422,7 +12422,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R31")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12439,7 +12439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "208e9bd7-6c1b-41cf-a678-204024e66bce")
-		(property "Reference" "R25"
+		(property "Reference" "R5"
 			(at 124.714 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12534,7 +12534,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R25")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12758,7 +12758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28f740f9-b75d-44cf-aab8-6faf927b4a45")
-		(property "Reference" "R12"
+		(property "Reference" "R23"
 			(at 218.948 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12853,7 +12853,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R12")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -12870,7 +12870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "291dd55c-4010-423e-bfbc-a4349f3a3b79")
-		(property "Reference" "R3"
+		(property "Reference" "R11"
 			(at 174.244 171.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12965,7 +12965,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R3")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13097,7 +13097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a5ad069-b2b8-4304-a793-16f6ad5ffaa5")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 364.49 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13189,7 +13189,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -13207,7 +13207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2aa3dfb9-6399-4684-a838-c0060e836bb2")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 140.97 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13318,7 +13318,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13335,7 +13335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c9103cc-ba9f-4f9d-8be3-4a6acbfd7320")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 217.424 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13430,7 +13430,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13447,7 +13447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31e57f2f-4e64-43a8-86a4-97f2f014dbce")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 50.8 224.9058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13544,7 +13544,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -13561,7 +13561,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32034a70-9ca0-4721-be09-3bc63fa5c00b")
-		(property "Reference" "R22"
+		(property "Reference" "R29"
 			(at 351.282 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13656,7 +13656,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R22")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -13673,7 +13673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "33b7ffb7-d881-477e-9795-ba8e03348fec")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 141.224 216.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13779,7 +13779,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13796,7 +13796,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3648aa14-5838-4d5b-b0d0-497f63d3ef09")
-		(property "Reference" "R18"
+		(property "Reference" "R27"
 			(at 292.608 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13891,7 +13891,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R18")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -13908,7 +13908,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3650aea4-c9a9-4044-97bf-1025e11a9cfa")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 146.812 145.288 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14005,7 +14005,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14022,7 +14022,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "373e155a-aa98-48df-a415-73e47d530f10")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14083,7 +14083,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -14100,7 +14100,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38575bcd-e948-44f3-9049-b9be08d6ca57")
-		(property "Reference" "R28"
+		(property "Reference" "R2"
 			(at 72.136 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14195,7 +14195,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R28")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14212,7 +14212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c199daa-b5fc-47f0-babd-c5d44f370916")
-		(property "Reference" "C5"
+		(property "Reference" "C1"
 			(at 35.6758 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14309,7 +14309,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C5")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -14326,7 +14326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d0d9076-8b94-4a02-ad12-4faa28861cea")
-		(property "Reference" "R8"
+		(property "Reference" "R16"
 			(at 174.244 188.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14421,7 +14421,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R8")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14439,7 +14439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e28efa9-0c25-42ac-ba9b-6c71387222b7")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR011"
 			(at 87.63 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14499,7 +14499,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR044")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14516,7 +14516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fa469f2-580a-4b59-af37-57dc4fcaebb7")
-		(property "Reference" "R10"
+		(property "Reference" "R25"
 			(at 210.82 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14611,7 +14611,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R10")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -14628,7 +14628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41443822-ec12-4def-96c6-0216193e153b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR037"
 			(at 318.77 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -14689,7 +14689,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR010")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14706,7 +14706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42581707-f727-426e-bfc3-b4eef6e80f68")
-		(property "Reference" "R7"
+		(property "Reference" "R15"
 			(at 174.498 184.912 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14801,7 +14801,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R7")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14818,7 +14818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4366e6b8-26a4-4d57-8758-b5e2390632b8")
-		(property "Reference" "R13"
+		(property "Reference" "R22"
 			(at 222.504 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14913,7 +14913,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R13")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -15047,7 +15047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47cc5655-0d0a-4758-ad06-6e9e6bb92af0")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 342.9 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -15107,7 +15107,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15125,7 +15125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "481ac6a7-e1bd-4274-a5d4-d4f703b1c84c")
-		(property "Reference" "C10"
+		(property "Reference" "C16"
 			(at 175.006 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15222,7 +15222,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C10")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15240,7 +15240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "484907b9-137e-497d-be1e-a3a294254cdf")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 345.44 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -15300,7 +15300,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -15317,7 +15317,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "490c8cdd-98c3-4926-aee5-7b268c0284a7")
-		(property "Reference" "R5"
+		(property "Reference" "R13"
 			(at 174.244 178.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15412,7 +15412,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R5")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -15430,7 +15430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d3913aa-2359-4ee0-a0a1-f98dcd99e724")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR022"
 			(at 143.51 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -15490,7 +15490,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR043")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -15623,7 +15623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f53ed6a-c315-46b7-bb22-a0d397b4adc8")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR025"
 			(at 158.75 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -15684,7 +15684,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR01")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15701,7 +15701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51518ab0-dd51-4697-a373-637da3065aaa")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 106.68 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15761,7 +15761,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15779,7 +15779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52ab320a-18e8-4399-ae73-b9b72cdb3631")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 190.5 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -15839,7 +15839,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15856,7 +15856,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53d59397-9c33-444e-834a-9efc01975058")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR028"
 			(at 186.69 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -15917,7 +15917,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR09")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -15935,7 +15935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550b434b-a4b3-4ea4-b1ea-fa134333375e")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR06"
 			(at 48.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -15995,7 +15995,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR034")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16012,7 +16012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "552f7853-0c44-401d-9a43-2d5caaaec573")
-		(property "Reference" "R24"
+		(property "Reference" "R31"
 			(at 351.282 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16107,7 +16107,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R24")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -16124,7 +16124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "557958b4-cd8c-4de4-8bf1-360d7c5e1db3")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 43.18 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16184,7 +16184,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -16313,7 +16313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "615d066a-87fa-4114-a02c-4f3431362d69")
-		(property "Reference" "R21"
+		(property "Reference" "R6"
 			(at 134.112 225.552 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16408,7 +16408,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R21")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16426,7 +16426,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "638fbf73-ea2f-48b5-9102-9f22387564cc")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 224.79 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16521,7 +16521,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -16539,7 +16539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63ba6bc6-ea9c-48ea-a06b-76edbe6d2e5b")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR026"
 			(at 172.72 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -16599,7 +16599,110 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR045")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_Filter:TA0970B")
+		(at 250.19 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64002bd4-3e9f-4811-a4ee-1d33cc291603")
+		(property "Reference" "X1"
+			(at 250.19 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TA0655A"
+			(at 250.19 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Filter:Filter_SAW-6_3.8x3.8mm"
+			(at 250.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.taisaw.com/assets/PDF/TA0655A%20_Rev.1.0_.pdf"
+			(at 255.27 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Bandpass Filter, 430MHz, BW-4MHz"
+			(at 250.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Aliexpress" "https://www.aliexpress.com/item/1005011831789075.html?pdp_ext_f=%7B%22sku_id%22%3A%2212000056730460079%22%7D&sourceType=1&spm=a2g0o.wish-manage-home.0.0"
+			(at 250.19 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0ad33ce6-3426-4c4d-b91e-c980e27513e4")
+		)
+		(pin "1"
+			(uuid "c9c80d4b-cf27-4808-b977-307fb135a1e0")
+		)
+		(pin "3"
+			(uuid "014d1c30-b60e-4498-8ce5-e72d12e881bd")
+		)
+		(pin "2"
+			(uuid "9a1327b7-9a22-430a-b9fe-6020caacb8c8")
+		)
+		(pin "5"
+			(uuid "a5671448-ddde-4191-85d6-61cd99316f23")
+		)
+		(pin "6"
+			(uuid "532ca9bf-8f18-4733-801e-aba5cdf32d14")
+		)
+		(instances
+			(project "FRDM-SX1255+"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -16616,7 +16719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65922d3c-e122-42b7-8c24-575c42e4db91")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 336.296 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16722,7 +16825,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -16863,7 +16966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66733459-667d-433a-87a8-4e3f44d9f073")
-		(property "Reference" "C28"
+		(property "Reference" "C7"
 			(at 111.7536 79.3664 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16958,7 +17061,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C28")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -16976,7 +17079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6877a68a-b7ae-4c06-976a-15340077a79f")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 316.23 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17092,7 +17195,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -17109,7 +17212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f89e294-4fd4-4c21-ab27-ada70bba7add")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR024"
 			(at 151.13 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -17170,7 +17273,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR04")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -17188,7 +17291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "721e98a4-62ed-49de-945d-d2eec51f2899")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 33.02 226.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17289,7 +17392,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -17306,7 +17409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "745e35ac-1723-44eb-a90a-d1cec5a64658")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR017"
 			(at 120.65 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17366,7 +17469,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR0103")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -17384,7 +17487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78fab863-b814-4f43-80f6-3d9e1ea38b76")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR038"
 			(at 342.9 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -17445,7 +17548,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR042")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -17462,7 +17565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79cf502d-43d4-4ed3-9634-ac21ac85e654")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR027"
 			(at 173.99 127 0)
 			(hide yes)
 			(show_name no)
@@ -17523,7 +17626,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR017")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17541,7 +17644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c30ae8a-4b34-4561-809a-676378756834")
-		(property "Reference" "C13"
+		(property "Reference" "C18"
 			(at 203.708 174.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17638,7 +17741,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C13")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -17655,7 +17758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c4e00c4-beae-45e8-83f7-30eaa6117301")
-		(property "Reference" "R29"
+		(property "Reference" "R33"
 			(at 362.712 187.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17750,7 +17853,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R29")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -17767,7 +17870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7dc92597-4806-465d-a697-69c049c5a572")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR030"
 			(at 194.31 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -17827,7 +17930,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR014")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17844,7 +17947,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8116d7bb-cc5a-4726-9e15-2a8369e90087")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 97.79 224.9058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17941,7 +18044,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -17958,7 +18061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86b7c871-e451-4dd5-befd-ce34242071ed")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 271.526 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18053,7 +18156,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -18071,7 +18174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89681ac5-d12a-4c57-8919-264b4d2996df")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR035"
 			(at 278.13 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -18131,7 +18234,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR028")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -18148,7 +18251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89bbc3ef-d22f-4989-908a-4199da090082")
-		(property "Reference" "C8"
+		(property "Reference" "C13"
 			(at 146.812 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18245,7 +18348,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C8")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -18263,7 +18366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf7ae01-e5cf-4c04-8f3f-4f42d330a769")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR015"
 			(at 111.76 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18323,7 +18426,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR0101")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18340,7 +18443,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cec1689-f6eb-4e7b-9892-116bfd31f9e7")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR04"
 			(at 43.18 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -18401,7 +18504,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR037")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18418,7 +18521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dd660ab-4ab5-4003-b0e5-de034c8136b8")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR031"
 			(at 217.17 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -18479,7 +18582,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR05")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -18497,7 +18600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f8bb394-72cd-4735-82c0-2ae98b6c30ea")
-		(property "Reference" "C9"
+		(property "Reference" "C15"
 			(at 157.734 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18594,7 +18697,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C9")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -18611,7 +18714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "949b9e3b-8222-4ed4-9df5-8e88012e871c")
-		(property "Reference" "R6"
+		(property "Reference" "R14"
 			(at 174.244 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18706,7 +18809,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R6")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -18723,7 +18826,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "958e75dd-b9c2-458c-bdba-b83b10bc5ccd")
-		(property "Reference" "R4"
+		(property "Reference" "R12"
 			(at 174.244 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18818,7 +18921,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R4")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -18836,7 +18939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "958e8cdc-d7fc-4130-a5b2-c633b3dbbe79")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 314.96 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18940,7 +19043,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -18957,7 +19060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "960c70d2-0cb9-4dcb-baed-7c87ff8b58f0")
-		(property "Reference" "R14"
+		(property "Reference" "R21"
 			(at 217.678 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19052,132 +19155,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Filter:B3715")
-		(at 250.19 73.66 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98bd89d5-9702-4b4c-bc24-bb47ac9afa5d")
-		(property "Reference" "X1"
-			(at 250.19 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B3909"
-			(at 250.19 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Filter:Filter_SAW_Epcos_DCC6C_3x3mm"
-			(at 250.19 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2167/B39431B3909U410_Rev_Dec2012.pdf"
-			(at 250.19 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Qualcomm – TDK SAW filter 6-pin"
-			(at 250.19 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Qualcomm (RF front-end (RFFE) filters)"
-			(at 250.19 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "B39431B3909U410"
-			(at 250.19 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Part Number" "B39431B3909U410-ND"
-			(at 250.19 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8d7099bc-6414-433e-a1f4-06acbd906c09")
-		)
-		(pin "1"
-			(uuid "c55a8295-02b0-446f-b226-c212151ebb8b")
-		)
-		(pin "6"
-			(uuid "9440d171-65c0-4e77-8633-5cb7ef41f9e1")
-		)
-		(pin "5"
-			(uuid "eda13871-1725-4020-8895-240b8c954572")
-		)
-		(pin "3"
-			(uuid "26563e60-dde0-46e5-884f-aaeae506c039")
-		)
-		(pin "4"
-			(uuid "fae7e1b5-da78-4a79-8aa3-4e32771eb9eb")
-		)
-		(instances
-			(project "FRDM-SX1255+"
-				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "X1")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -19441,7 +19419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d60107a-4439-4527-97a7-2498273d1267")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 31.75 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -19502,7 +19480,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -19520,7 +19498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d631272-aeb5-46f7-9f41-fe94341afc21")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR05"
 			(at 48.26 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -19580,7 +19558,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR036")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19710,7 +19688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1a0f9bd-86e5-4a33-a6e7-20766163df67")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR07"
 			(at 57.15 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -19770,7 +19748,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR030")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19788,7 +19766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3ebc126-a7c3-43a9-b628-7d97d2c0ea81")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR08"
 			(at 58.42 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -19848,7 +19826,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR039")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -19866,7 +19844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a43f27d3-5f36-45f5-a5cc-307e765f8444")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 128.27 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19928,7 +19906,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -19946,7 +19924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a65551ef-c22d-4137-ad4d-fdfe7ca133fd")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR042"
 			(at 354.33 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -20006,7 +19984,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR029")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -20024,7 +20002,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a72e5bc7-6b99-44b0-a5f8-d48671442abb")
-		(property "Reference" "C12"
+		(property "Reference" "C19"
 			(at 208.28 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20121,7 +20099,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C12")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -20139,7 +20117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9d10934-10f7-4dd1-8f2b-3221f2c6ba0a")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR041"
 			(at 353.06 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -20199,7 +20177,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR062")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -20216,7 +20194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa957d77-576a-46c0-bed5-d49ddfb53be1")
-		(property "Reference" "R11"
+		(property "Reference" "R24"
 			(at 215.138 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20311,7 +20289,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R11")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -20328,7 +20306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad26361c-730b-4434-ba51-24846ba50aaf")
-		(property "Reference" "R15"
+		(property "Reference" "R20"
 			(at 217.678 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20423,7 +20401,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R15")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -20566,7 +20544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b091d32b-a51b-4187-b676-086a954d184a")
-		(property "Reference" "R32"
+		(property "Reference" "R9"
 			(at 172.466 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20661,7 +20639,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R32")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -20679,7 +20657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0fa2f33-4491-42a8-b41c-a10622df9ce0")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR01"
 			(at 26.67 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -20739,7 +20717,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR048")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -20756,7 +20734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b583ff9d-d9b0-4d23-9509-1fa92a07a6ef")
-		(property "Reference" "R16"
+		(property "Reference" "R19"
 			(at 217.678 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20851,7 +20829,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R16")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -20868,7 +20846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b766ab69-a179-4cd6-9617-9b7a8543f062")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR023"
 			(at 152.4 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -20928,7 +20906,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR013")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -20945,7 +20923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd477df7-bbb7-41ea-860f-93e5440088a2")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 353.06 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21051,7 +21029,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -21068,7 +21046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf3ee39b-719a-44b1-90c3-a5d5cb6deed0")
-		(property "Reference" "R20"
+		(property "Reference" "R4"
 			(at 124.206 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21163,7 +21141,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R20")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -21299,7 +21277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7672b4b-55d2-4229-ac33-a0d104c4ca7c")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 68.58 224.9058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21396,7 +21374,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -21413,7 +21391,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc6e8705-8dbb-4fb9-a5ad-f3831dccf557")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 36.83 149.606 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21508,7 +21486,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -21525,7 +21503,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdb907c2-4284-4e25-a594-64b3e972c73d")
-		(property "Reference" "C15"
+		(property "Reference" "C10"
 			(at 121.92 116.9558 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21622,7 +21600,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C15")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -21640,7 +21618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb99fca-3ce9-4363-8d11-9a56e30ee797")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 280.67 72.6831 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21737,7 +21715,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -21755,7 +21733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf6d5050-2920-4f83-ab4e-a4ad022a7adf")
-		(property "Reference" "C16"
+		(property "Reference" "C14"
 			(at 157.4736 79.3664 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21850,7 +21828,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C16")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -21867,7 +21845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4fd2eba-e8d2-4c92-85ee-eba927bd110d")
-		(property "Reference" "C30"
+		(property "Reference" "C8"
 			(at 123.444 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21962,7 +21940,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C30")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -21979,7 +21957,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6038313-20f3-4858-91a0-6ffa984254bc")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR020"
 			(at 134.62 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -22040,7 +22018,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR02")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -22058,7 +22036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d63e76b0-6643-4bd0-9a98-e3c26715c976")
-		(property "Reference" "C11"
+		(property "Reference" "C17"
 			(at 194.31 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22155,7 +22133,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C11")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -22172,7 +22150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9c5fb3a-bd27-4d77-8337-5efc79688eb8")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR012"
 			(at 95.25 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22233,7 +22211,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR032")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -22250,7 +22228,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2fe5360-65fa-4e68-9c26-b15221415a43")
-		(property "Reference" "R33"
+		(property "Reference" "R10"
 			(at 183.388 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22345,7 +22323,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R33")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -22362,7 +22340,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e54f5eb8-4415-4488-b0f7-13a1ccb1a336")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 158.242 141.224 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22457,7 +22435,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -22474,7 +22452,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6387f1e-4808-4757-a738-158efdf66195")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR010"
 			(at 81.28 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22535,7 +22513,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR033")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -22552,7 +22530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea4a46cf-4eb2-4182-8d67-18a3b2c9e881")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR09"
 			(at 66.04 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22613,7 +22591,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR031")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -22631,7 +22609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb60dcba-fbe1-489c-88b8-455e6ed2c890")
-		(property "Reference" "J7"
+		(property "Reference" "J5"
 			(at 351.79 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22701,7 +22679,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -22719,7 +22697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efe30ae8-e7a6-4665-97ee-662116b17faf")
-		(property "Reference" "L4"
+		(property "Reference" "L2"
 			(at 121.92 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22816,7 +22794,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "L4")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -22834,7 +22812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f059a35a-0f24-4cb4-ad39-09dd01f08917")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 147.574 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22931,7 +22909,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -22949,7 +22927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e178e6-9f7b-4e38-b667-f1a6ebf32cf3")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 220.98 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -23010,7 +22988,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -23028,7 +23006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f51c0299-1948-44b0-85dd-8357b48643ff")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 219.71 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -23088,7 +23066,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -23105,7 +23083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f53aec0a-fde5-48fe-990e-77f6472f46f8")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR021"
 			(at 142.24 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -23166,7 +23144,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR015")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -23184,7 +23162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6faaef1-d588-472f-954d-088dcf2ea79e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR034"
 			(at 255.27 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -23244,7 +23222,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR038")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -23261,7 +23239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f99e30e4-776e-4feb-adbd-9407014721ae")
-		(property "Reference" "R26"
+		(property "Reference" "R3"
 			(at 113.792 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23356,7 +23334,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R26")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -23374,7 +23352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa618d0f-de1b-4fa6-81e5-c9f039e691c5")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 54.61 75.2233 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23471,7 +23449,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -23488,7 +23466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbf24c94-266d-44ef-abea-1e207fd366ab")
-		(property "Reference" "C17"
+		(property "Reference" "C20"
 			(at 357.124 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23583,7 +23561,7 @@
 		(instances
 			(project "FRDM-SX1255+"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C17")
+					(reference "C20")
 					(unit 1)
 				)
 			)
