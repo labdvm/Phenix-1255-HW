@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.15,
-          "width": 1.0
+          "drill": 2.8,
+          "height": 2.0,
+          "width": 3.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -243,7 +243,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "V1.3"
+      "sch_revision": "V1.4"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -707,7 +707,7 @@
         "uuid": "f23fb6c7-235c-437c-af25-1fad286dfcda"
       }
     ],
-    "used_designators": "#PWR7,#PWR10-12,F1,R19-20,Rotary1,USB/LAN1,X2",
+    "used_designators": "#PWR7,#PWR10-12,F1,R19-20,Rotary1,USB/LAN1,X1-2",
     "variants": []
   },
   "sheets": [
