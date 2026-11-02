@@ -50,7 +50,7 @@ The project idea comes from **[DM5LF](https://github.com/w4tchd0g)**, who also w
 ## Features
 
 - **Separate RX and TX paths** with U.FL connectors
-  - RX: SAW band-pass filter (TDK B3909)
+  - RX: SAW band-pass filter (TA0655A) with 430MHz center freq. with 2MHz bandwidth
   - TX: low-pass filter (Mini-Circuits LFCN-490+)
 - **Power supply** – 3.3 V LDO (MCP1703), ferrite-bead filtering, resettable 500 mA fuse, TVS diode array (SP0502BAHT)
 - **User interface**
