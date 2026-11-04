@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <img src="documentation/images/FRDM-SX1255.png" alt="Phenix-1255 PCB – top side" width="720">
+  <img src="documentation/images/FRDM-SX1255-V2.png" alt="Phenix-1255 PCB – top side" width="720">
 </p>
 
 ## Overview
@@ -63,7 +63,7 @@ The project idea comes from **[DM5LF](https://github.com/w4tchd0g)**, who also w
 
 | Top | Bottom |
 |:---:|:---:|
-| <img src="documentation/images/FRDM-SX1255.png" alt="Top side" width="420"> | <img src="documentation/images/FRDM-SX1255_b.png" alt="Bottom side" width="420"> |
+| <img src="documentation/images/FRDM-SX1255.png" alt="Top side" width="420"> | <img src="documentation/images/FRDM-SX1255-V2_b.png" alt="Bottom side" width="420"> |
 
 The shield is designed for the NXP FRDM-MCXN947 development board, see the
 [NXP FRDM-MCXN947 product page](https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947)
@@ -90,16 +90,16 @@ for photos, documentation and the board pinout.
 
 | File | Description |
 |---|---|
-| [`FRDM-SX1255.kicad_pro`](FRDM-SX1255.kicad_pro) | KiCad project |
-| [`FRDM-SX1255.kicad_sch`](FRDM-SX1255.kicad_sch) | Schematic |
-| [`FRDM-SX1255.kicad_pcb`](FRDM-SX1255.kicad_pcb) | PCB layout |
-| [`FRDM-SX1255.pdf`](FRDM-SX1255.pdf) | Schematic as PDF |
+| [`FRDM-SX1255.kicad_pro`](FRDM-SX1255-V2.kicad_pro) | KiCad project |
+| [`FRDM-SX1255.kicad_sch`](FRDM-SX1255-V2.kicad_sch) | Schematic |
+| [`FRDM-SX1255.kicad_pcb`](FRDM-SX1255-V2.kicad_pcb) | PCB layout |
+| [`FRDM-SX1255.pdf`](FRDM-SX1255-V2.pdf) | Schematic as PDF |
 | [`documentation/`](documentation) | Hardware and manufacturing documentation, images |
 | [`Gerber and BOM/`](Gerber%20and%20BOM) | Manufacturing data |
-| ├─ [`…_gerber.zip`](Gerber%20and%20BOM/FRDM-SX1255.kicad_pcb_gerber.zip) | Gerber files for PCB fabrication |
-| ├─ [`…_bom.csv`](Gerber%20and%20BOM/FRDM-SX1255.kicad_pcb_bom.csv) | Bill of materials (incl. DigiKey part numbers) |
-| ├─ [`…_positions.csv`](Gerber%20and%20BOM/FRDM-SX1255.kicad_pcb_positions.csv) | Pick-and-place positions for assembly |
-| └─ [`…_netlist.ipc`](Gerber%20and%20BOM/FRDM-SX1255.kicad_pcb_netlist.ipc) | IPC-D-356 netlist for electrical testing |
+| ├─ [`…_gerber.zip`](Gerber%20and%20BOM/FRDM-SX1255-V2.kicad_pcb_gerber.zip) | Gerber files for PCB fabrication |
+| ├─ [`…_bom.csv`](Gerber%20and%20BOM/FRDM-SX1255-V2.kicad_pcb_bom.csv) | Bill of materials (incl. DigiKey part numbers) |
+| ├─ [`…_positions.csv`](Gerber%20and%20BOM/FRDM-SX1255-V2.kicad_pcb_positions.csv) | Pick-and-place positions for assembly |
+| └─ [`…_netlist.ipc`](Gerber%20and%20BOM/FRDM-SX1255-V2.kicad_pcb_netlist.ipc) | IPC-D-356 netlist for electrical testing |
 
 ## Getting started
 
