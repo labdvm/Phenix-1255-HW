@@ -7270,6 +7270,17 @@
 			(uuid "50ea770d-0918-4930-a4b6-4f9a74cada3b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS647Sx70.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "PTS647SK38SMTR2LFS:PTS647SK38SMTR2LFS"
 		(layer "F.Cu")
@@ -7567,6 +7578,17 @@
 			(uuid "c9207cb9-1e90-40be-b08d-8b0a07f6c061")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS647Sx70.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm_ThermalVias"
 		(layer "F.Cu")
@@ -10253,7 +10275,7 @@
 			(uuid "c9f0ea2a-2000-4c76-8dc5-6cca0676fd04")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10261,7 +10283,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -11926,6 +11948,17 @@
 			(uuid "08526cdc-1888-410d-a437-48e70fbddc04")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_PTS647Sx70.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-3"
 		(layer "F.Cu")
@@ -12693,15 +12726,15 @@
 			(uuid "af244129-c26b-46a2-a0fa-0a5baf61a9d3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SSQ-110-03-T-D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x10_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0.0127)
+				(xyz 1.27 11.43 -1.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz 0 180 0)
 			)
 		)
 	)
@@ -15569,15 +15602,15 @@
 			(uuid "a72a218d-c49b-4b25-ae46-3fa77ae9cf97")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SSQ-114-03-T-D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x14_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 -0 0.0127)
+				(xyz 1.27 16.51 -1.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz 0 180 0)
 			)
 		)
 	)
@@ -16553,15 +16586,15 @@
 			(uuid "4bdc6c20-26b7-48cf-806c-e2e30d349eed")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SSQ-108-03-T-D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0.0127)
+				(xyz 1.27 8.89 -1.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz 0 180 0)
 			)
 		)
 	)
@@ -17280,7 +17313,7 @@
 			(uuid "357c67e2-b946-4f23-be33-4695690807ad")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Filter.3dshapes/Filter_SAW-6_3.8x3.8mm.step"
+		(model "${KIPRJMOD}/3dmodels/TA0655A.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17703,7 +17736,7 @@
 			(uuid "25d7b9e2-5120-4439-9e6c-ccf6e9427560")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17711,7 +17744,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 90)
 			)
 		)
 	)
@@ -18184,15 +18217,15 @@
 			(uuid "e2c109d4-803a-452e-81c0-d1b204f520b1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SSQ-116-03-T-D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x16_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 0.0127)
+				(xyz 1.27 19.05 -1.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz 0 180 0)
 			)
 		)
 	)
@@ -18547,6 +18580,17 @@
 			(uuid "33067fcd-12f0-42a5-bb83-667e2083fa4e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/VDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.7mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MountingHole:MOUNTINGHOLE_3.2MM_M3"
 		(layer "F.Cu")
@@ -18914,15 +18958,15 @@
 			(uuid "6f6c1744-ba23-464f-9739-d2d586b40474")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SSQ-108-03-T-D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x08_P2.54mm_Vertical.step"
 			(offset
-				(xyz -0 -0 0.0127)
+				(xyz 1.27 8.89 -1.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz 0 180 0)
 			)
 		)
 	)
@@ -20168,15 +20212,15 @@
 			(uuid "34b24ba4-2be9-4711-8fdc-d4073c84d37b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/SSQ-106-03-T-D.stp"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x06_P2.54mm_Vertical.step"
 			(offset
-				(xyz -0 -0 0.0127)
+				(xyz 1.27 6.35 -1.2)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz 0 180 0)
 			)
 		)
 	)
@@ -20667,6 +20711,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/3dmodels/OLED_0.96in_128x64_I2C.stp"
+			(offset
+				(xyz 0 -3.81 8.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
 			)
 		)
 	)

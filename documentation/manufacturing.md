@@ -1,16 +1,19 @@
 # Manufacturing and assembly
 
-Notes for ordering and assembling the Phenix-1255 shield, revision **V1.3**. All production files
-are in [`Gerber and BOM/`](../Gerber%20and%20BOM).
+Notes for ordering and assembling the Phenix-1255 shield, revision **V2** and the **V2 Plus**
+variant. The production files are in [`FRDM-SX1255/Gerber and BOM/`](../FRDM-SX1255/Gerber%20and%20BOM) (V2) and
+[`FRDM-SX1255+/Gerber and BOM/`](../FRDM-SX1255+/Gerber%20and%20BOM) (V2 Plus).
 
 ## Production files
 
-| File | Use |
+| File (V2) | Use |
 |---|---|
-| [`FRDM-SX1255.kicad_pcb_gerber.zip`](../Gerber%20and%20BOM/FRDM-SX1255.kicad_pcb_gerber.zip) | Gerber and drill files for PCB fabrication |
-| [`FRDM-SX1255.kicad_pcb_bom.csv`](../Gerber%20and%20BOM/FRDM-SX1255.kicad_pcb_bom.csv) | Bill of materials with manufacturer and DigiKey part numbers |
-| [`FRDM-SX1255.kicad_pcb_positions.csv`](../Gerber%20and%20BOM/FRDM-SX1255.kicad_pcb_positions.csv) | Pick-and-place positions |
-| [`FRDM-SX1255.kicad_pcb_netlist.ipc`](../Gerber%20and%20BOM/FRDM-SX1255.kicad_pcb_netlist.ipc) | IPC-D-356 netlist for the electrical test |
+| [`FRDM-SX1255-V2.kicad_pcb_gerber.zip`](../FRDM-SX1255/Gerber%20and%20BOM/FRDM-SX1255-V2.kicad_pcb_gerber.zip) | Gerber and drill files for PCB fabrication |
+| [`FRDM-SX1255-V2.kicad_pcb_bom.csv`](../FRDM-SX1255/Gerber%20and%20BOM/FRDM-SX1255-V2.kicad_pcb_bom.csv) | Bill of materials with manufacturer and DigiKey part numbers |
+| [`FRDM-SX1255-V2.kicad_pcb_positions.csv`](../FRDM-SX1255/Gerber%20and%20BOM/FRDM-SX1255-V2.kicad_pcb_positions.csv) | Pick-and-place positions |
+| [`FRDM-SX1255-V2.kicad_pcb_netlist.ipc`](../FRDM-SX1255/Gerber%20and%20BOM/FRDM-SX1255-V2.kicad_pcb_netlist.ipc) | IPC-D-356 netlist for the electrical test |
+
+The V2 Plus files have the same structure and are named `FRDM-SX1255+ V2.kicad_pcb_*`.
 
 The Gerber ZIP also contains `User_Comments.gbr`. The manufacturer does not need it.
 
@@ -37,9 +40,12 @@ explicitly when ordering.
 - **TCXO (Y1)** – The footprint fits 38.4 MHz TCXOs in 3225 and 2520 packages. The BOM uses an
   Epson TG2520SMN (clipped sine, 0.5–1 ppm). If you use a different part, keep 38.4 MHz: the sample
   rates are derived from it.
-- **U.FL connectors (J5, J6)** – Rated for a limited number of mating cycles. Use a short U.FL to
-  SMA pigtail instead of connecting and disconnecting the antenna cable directly.
-- **Rotary encoder** – Alps EC11E series with push button, 20 mm shaft height (through-hole).
+- **TQP3M9036 (U2, V2 Plus only)** – 2 × 2 mm DFN with exposed pad. Reflow soldering is
+  recommended; the exposed pad must be soldered to GND.
+- **U.FL connectors (J1 *TX*, J2 *RX*)** – Rated for a limited number of mating cycles. Use a short
+  U.FL to SMA pigtail instead of connecting and disconnecting the antenna cable directly.
+- **Push buttons (SW1–SW3)** – C&K PTS647 series, SMD.
+- **OLED socket (J5)** – 1×4 female header, 2.54 mm, for a 0.96″ SSD1306 I²C module.
 - **FRDM headers** – Use stacking or socket headers that match the FRDM-MCXN947 (Samtec SSQ series
   in the design).
 - ***bypass* solder jumper** – Leave open for normal operation. Closing it powers the SX1255 PA
@@ -48,6 +54,6 @@ explicitly when ordering.
 ## First power-up
 
 1. Check for shorts between `+5V0`, `+3V3` and GND before plugging the shield onto the FRDM board.
-2. Plug the shield onto the FRDM-MCXN947 and power it. The *PWR* LED (D1) must light up.
-3. Connect a 50 Ω load or antenna to *TX* (J6) before transmitting.
+2. Plug the shield onto the FRDM-MCXN947 and power it. The *PWR* LED (D2) must light up.
+3. Connect a 50 Ω load or antenna to *TX* (J1) before transmitting.
 4. Flash the firmware from [phenix-1255-sw](https://github.com/w4tchd0g/phenix-1255-sw).

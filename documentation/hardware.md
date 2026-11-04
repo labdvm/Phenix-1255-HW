@@ -1,12 +1,14 @@
 # Hardware
 
-Description of the Phenix-1255 shield, revision **V1.3**. The full schematic is in
-[`FRDM-SX1255.pdf`](../FRDM-SX1255.pdf); the firmware view of the same signals is in
+Description of the Phenix-1255 shield, revision **V2** and the **V2 Plus** variant. The full
+schematics are in [`FRDM-SX1255-V2.pdf`](../FRDM-SX1255/FRDM-SX1255-V2.pdf) and
+[`FRDM-SX1255+ V2.pdf`](../FRDM-SX1255+/FRDM-SX1255+%20V2.pdf); the firmware view of the same
+signals is in
 [`_doc/hardware.md`](https://github.com/w4tchd0g/phenix-1255-sw/blob/develop/_doc/hardware.md)
 of the software repository.
 
 <p align="center">
-  <img src="images/FRDM-SX1255.png" alt="Phenix-1255 PCB – top side" width="720">
+  <img src="images/pcb-v2-top.png" alt="Phenix-1255 V2 – top side" width="720">
 </p>
 
 ## Block overview
@@ -15,18 +17,21 @@ of the software repository.
 |---|---|---|
 | Transceiver | IC1 (SX1255) | I/Q interface (I2S) and SPI to the MCX N947 |
 | Reference clock | Y1 (38.4 MHz TCXO) | Clipped sine, 0.5–1 ppm, footprint fits 3225 and 2520 packages |
-| RX path | J5, X1, L2/L3, C | U.FL input → SAW band-pass (TDK B3909) → matching → `RFI` |
-| TX path | J6, FL1, C | `RFO_P/N` → matching → low-pass (Mini-Circuits LFCN-490+) → U.FL output |
-| PA supply switch | Q1, R20, R25, R26, *bypass* | P-MOSFET switches the SX1255 PA supply (`VBAT3`) |
-| Power supply | F1, D5, L1, U1 | 5 V → PTC fuse → TVS → ferrite bead → 3.3 V LDO |
-| Host interface select | *USB/LAN* slide switch | Selects HS USB or Ethernet in the firmware |
-| User interface | D1–D4, Rotary, J7 | Status LEDs, rotary encoder with push button, OLED header |
+| RX path | J2, X1, L2, L3 | U.FL input → SAW band-pass (Tai-Saw TA0655A) → matching (L3 series, L2 shunt) → `RFI` |
+| TX path | C11, FL1, J1 | `RFO_P` → 100 pF → low-pass (Mini-Circuits LFCN-490+) → U.FL output; `RFO_N` is AC-coupled to GND (C14) |
+| TX driver amplifier (V2 Plus only) | U2, R29–R34, L4, C18–C20 | Qorvo TQP3M9036 between `RFO_P` and the low-pass filter, see [below](#tx-driver-amplifier-v2-plus) |
+| PA supply switch | Q1, R2, R4, R5, *bypass* | P-MOSFET switches the SX1255 PA supply (`VBAT3`) |
+| Power supply | F1, D1, L1, U1 | 5 V → PTC fuse → TVS → ferrite bead → 3.3 V LDO |
+| User interface | SW1–SW3, D2–D5, J5 | Push buttons, status LEDs, OLED socket |
 
 ## Shield headers
 
-The shield plugs onto the FRDM-MCXN947 with six headers. The pin numbers below are the shield's
-pin numbers (see the silkscreen and the schematic). The MCU pins are taken from the firmware's
-devicetree overlay. Pins not listed are not connected on the shield.
+The shield plugs onto the FRDM-MCXN947 with six headers (J1, J2, J3, J4, J9, J12 on the PCB). The
+pin numbers below are the shield's pin numbers (see the silkscreen). The MCU pins are taken from the
+firmware's devicetree overlay. Pins not listed are not connected or GND.
+
+> **Note:** On V2 the U.FL connectors are also called J1 (*TX*) and J2 (*RX*). In this document
+> "J1"/"J2" in the header tables mean the FRDM headers.
 
 ### J1 – SX1255 I/Q interface and control
 
@@ -49,78 +54,82 @@ devicetree overlay. Pins not listed are not connected on the shield.
 | 10 | `MISO` | P0_26 | LPSPI1 SDI |
 | 12 | `SCK` | P0_25 | LPSPI1 SCK |
 | 13 | `DIO3` | P0_19 | SX1255 DIO3, GPIO input |
-| 14 | GND | | |
 | 15 | `SCL_oled` | P1_1 | LPI2C3 SCL |
 | 17 | `SDA_oled` | P1_0 | LPI2C3 SDA |
 
-### J3 – Power and board control
+All SX1255 signals have 33 Ω series resistors (R8–R22) close to the SX1255.
+
+### J3 – Power, PA control and buttons
 
 | Pin | Signal | MCU pin | Function |
 |---|---|---|---|
-| 4 | `3V3_oled` | | 3.3 V supply for the OLED header J7 |
+| 1 | `BTN_LEFT` | P2_0 | Push button SW3 *←* |
+| 3 | `BTN_RIGHT` | P1_22 | Push button SW1 *→* |
+| 4 | `+3.3V` | | 3.3 V of the FRDM board for the OLED socket and the buttons |
 | 10 | `+5V0` | | Main supply of the shield |
 | 11 | `~PA_EN` | P2_4 | PA supply enable, active low |
-| 12, 14 | GND | | |
-| 13 | `USB/LAN` | P2_7 | `COMM_SEL`: open = HS USB, GND = Ethernet |
+| 13 | `USB/LAN` | P2_7 | Not connected on V2 (the slide switch of V1.3 was removed) |
 
-### J4 – Status LEDs
+### J4 – Button and status LEDs
 
-| Pin | LED | Colour | MCU pin |
+| Pin | Signal | Colour | MCU pin |
 |---|---|---|---|
-| 6 | D2 *Err* | red | P0_14 |
-| 8 | D3 *Warn* | yellow | P0_22 |
-| 10 | D4 *Good* | green | P0_15 |
+| 1 | `BTN_OK` – push button SW2 *OK* | | P4_12 / P0_21 |
+| 6 | D5 *Err* | red | P0_14 |
+| 8 | D4 *Warn* | yellow | P0_22 |
+| 10 | D3 *Good* | green | P0_15 |
 
-The LEDs are driven active high through 1.5 kΩ resistors (R22–R24). D1 *PWR* is on the shield's
+The LEDs are driven active high through 1.5 kΩ resistors (R24–R26). D2 *PWR* is on the shield's
 3.3 V rail.
 
-### J9 – Rotary encoder and 3.3 V
+Where two MCU pins are listed, the FRDM board routes the header pin to one of them via a jumper or
+resistor option. Check the FRDM-MCXN947 schematic for the default (e.g. J4 pin 10 can also be
+routed to P2_0, which is already used by `BTN_LEFT`).
 
-| Pin | Signal | MCU pin | Function |
-|---|---|---|---|
-| 5 | Encoder A | P1_19 | 10 kΩ pull-up (R18) |
-| 6 | Encoder B | P1_18 | 10 kΩ pull-up (R19) |
-| 18 | Encoder push button | P0_11 | Active low |
-| 21 | `+3V3` | | |
-| 22 | GND | | |
+### J9, J12
 
-### J12
-
-Only pin 2 (GND) is connected.
+Only GND is used.
 
 ## Other connectors
 
 | Connector | Type | Use |
 |---|---|---|
-| J5 *RX* | U.FL | Receiver input, 1 MΩ to GND (R27) |
-| J6 *TX* | U.FL | Transmitter output, 1 MΩ to GND (R28) |
-| J7 *I2C OLED* | 1×4 socket, 2.54 mm | 1 GND · 2 3V3 · 3 SCL · 4 SDA (33 Ω series resistors R30/R29) |
+| J1 *TX* | U.FL | Transmitter output, 1 MΩ to GND (R3) |
+| J2 *RX* | U.FL | Receiver input, 1 MΩ to GND (R23) |
+| J5 *I2C OLED* | 1×4 socket, 2.54 mm | 1 GND · 2 +3.3V · 3 SCL · 4 SDA (33 Ω series resistors R27/R28) |
 
 ## Board functions
 
-### USB/LAN switch
+### Push buttons
 
-The slide switch pulls `COMM_SEL` (J3 pin 13) to GND or leaves it open. The firmware reads the
-pin with an internal pull-up:
-
-| Position | Level | Host link |
-|---|---|---|
-| USB | open / high | High-Speed USB |
-| LAN | GND / low | Ethernet |
+SW1–SW3 switch to the FRDM 3.3 V rail and have no external pull-downs. Enable the **internal
+pull-downs** on `BTN_LEFT`, `BTN_OK` and `BTN_RIGHT`; a pressed button reads as `1`.
 
 ### PA supply and *bypass* jumper
 
-The SX1255 PA supply (`VBAT3`) is fed from 3.3 V through R26 (1 Ω) and the P-MOSFET Q1 (BSS84).
-R20 pulls the gate up, so the PA is **off** until the firmware pulls `~PA_EN` low.
+The SX1255 PA supply (`VBAT3`) is fed from 3.3 V through R2 (1 Ω) and the P-MOSFET Q1 (BSS84).
+R4 pulls the gate up, so the PA is **off** until the firmware pulls `~PA_EN` low (through R5).
 
 The open solder jumper ***bypass*** bridges Q1. Closing it powers the PA permanently, independent
 of the firmware.
+
+### TX driver amplifier (V2 Plus)
+
+```
+RFO_P ─ π-attenuator (R29 150 Ω / R30 36 Ω / R31 150 Ω) ─ C20 ─ U2 TQP3M9036 ─ C11 ─ FL1 LFCN-490+ ─ J1 TX
+                                                                  │
+                                                     +5V0 ─ L4 68 nH (bias feed)
+```
+
+- U2 is supplied from `+5V0` through L4 into its RF output (C18/C19 decoupling).
+- U2 pin 6 is driven from `~PA_EN` through R34/R33 with R32 to GND, so the amplifier follows the PA
+  enable signal.
 
 ### Power supply
 
 ```
 J3-10 (+5V0) ─ F1 500 mA PTC ─┬─ L1 ferrite bead ─ U1 MCP1703 (3.3 V) ─ +3V3
-                              └─ D5 TVS (SP0502BAHT)
+                              └─ D1 TVS (SP0502BAHT)
 ```
 
 The FRDM-MCXN947 supplies the 5 V. With a 48 V → 5 V USB-C PoE splitter the setup can be powered
@@ -130,4 +139,5 @@ over Ethernet.
 
 | Top | Bottom |
 |:---:|:---:|
-| <img src="images/FRDM-SX1255.png" alt="Top side" width="420"> | <img src="images/FRDM-SX1255_b.png" alt="Bottom side" width="420"> |
+| <img src="images/pcb-v2-top.png" alt="V2 – top side" width="420"> | <img src="images/pcb-v2-bottom.png" alt="V2 – bottom side" width="420"> |
+| <img src="images/pcb-v2-plus-top.png" alt="V2 Plus – top side" width="420"> | <img src="images/pcb-v2-plus-bottom.png" alt="V2 Plus – bottom side" width="420"> |
