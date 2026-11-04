@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <img src="documentation/images/FRDM-SX1255-V2.png" alt="Phenix-1255 PCB – top side" width="720">
+  <img src="documentation/images/FRDM-SX1255-V2" alt="Phenix-1255 PCB – top side" width="720">
 </p>
 
 ## Overview
@@ -63,7 +63,7 @@ The project idea comes from **[DM5LF](https://github.com/w4tchd0g)**, who also w
 
 | Top | Bottom |
 |:---:|:---:|
-| <img src="documentation/images/FRDM-SX1255.png" alt="Top side" width="420"> | <img src="documentation/images/FRDM-SX1255-V2_b.png" alt="Bottom side" width="420"> |
+| <img src="documentation/images/FRDM-SX1255-V2.png" alt="Top side" width="420"> | <img src="documentation/images/FRDM-SX1255-V2_b.png" alt="Bottom side" width="420"> |
 
 The shield is designed for the NXP FRDM-MCXN947 development board, see the
 [NXP FRDM-MCXN947 product page](https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947)
