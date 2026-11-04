@@ -90,10 +90,10 @@ for photos, documentation and the board pinout.
 
 | File | Description |
 |---|---|
-| [`FRDM-SX1255.kicad_pro`](FRDM-SX1255-V2.kicad_pro) | KiCad project |
-| [`FRDM-SX1255.kicad_sch`](FRDM-SX1255-V2.kicad_sch) | Schematic |
-| [`FRDM-SX1255.kicad_pcb`](FRDM-SX1255-V2.kicad_pcb) | PCB layout |
-| [`FRDM-SX1255.pdf`](FRDM-SX1255-V2.pdf) | Schematic as PDF |
+| [`FRDM-SX1255-V2.kicad_pro`](FRDM-SX1255-V2.kicad_pro) | KiCad project |
+| [`FRDM-SX1255-V2.kicad_sch`](FRDM-SX1255-V2.kicad_sch) | Schematic |
+| [`FRDM-SX1255-V2.kicad_pcb`](FRDM-SX1255-V2.kicad_pcb) | PCB layout |
+| [`FRDM-SX1255-V2.pdf`](FRDM-SX1255-V2.pdf) | Schematic as PDF |
 | [`documentation/`](documentation) | Hardware and manufacturing documentation, images |
 | [`Gerber and BOM/`](Gerber%20and%20BOM) | Manufacturing data |
 | ├─ [`…_gerber.zip`](Gerber%20and%20BOM/FRDM-SX1255-V2.kicad_pcb_gerber.zip) | Gerber files for PCB fabrication |
