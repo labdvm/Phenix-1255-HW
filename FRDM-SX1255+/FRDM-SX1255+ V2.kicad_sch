@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "FRDM-MCXN947 + SX1255 +PA")
-		(date "2026-11-04")
+		(date "2026-11-24")
 		(rev "V2.0")
 		(company "Z32IT, DM5LF")
 		(comment 1 "Phenix-1255")
@@ -1971,6 +1971,1034 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x16_Odd_Even"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x16_Odd_Even"
+				(at 1.27 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_02x16_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 19.05)
+					(end 3.81 -21.59)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 17.907)
+					(end 0 17.653)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 15.367)
+					(end 0 15.113)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -17.653)
+					(end 0 -17.907)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -20.193)
+					(end 0 -20.447)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 17.907)
+					(end 2.54 17.653)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 15.367)
+					(end 2.54 15.113)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 12.827)
+					(end 2.54 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 10.287)
+					(end 2.54 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 7.747)
+					(end 2.54 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -10.033)
+					(end 2.54 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -12.573)
+					(end 2.54 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -15.113)
+					(end 2.54 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -17.653)
+					(end 2.54 -17.907)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -20.193)
+					(end 2.54 -20.447)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 17.78 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 17.78 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 15.24 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 15.24 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 12.7 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 3.81)
+					(name "Pin_24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -12.7 180)
+					(length 3.81)
+					(name "Pin_26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -15.24 180)
+					(length 3.81)
+					(name "Pin_28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -17.78 0)
+					(length 3.81)
+					(name "Pin_29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -17.78 180)
+					(length 3.81)
+					(name "Pin_30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -20.32 0)
+					(length 3.81)
+					(name "Pin_31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -20.32 180)
+					(length 3.81)
+					(name "Pin_32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -3546,208 +4574,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7139,6 +7965,16 @@
 		)
 		(uuid "f342d3e4-a8ec-459c-b881-7e5c1258d5d8")
 	)
+	(text "4dB ATT"
+		(exclude_from_sim no)
+		(at 174.752 43.18 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "f5867387-720f-4aae-b431-ad826dd137e2")
+	)
 	(junction
 		(at 182.88 105.41)
 		(diameter 0)
@@ -7192,12 +8028,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "232c059a-3ba3-4a73-82ef-026507cbc748")
-	)
-	(junction
-		(at 130.81 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33f219b1-3562-489e-8c71-7342db769b3d")
 	)
 	(junction
 		(at 200.66 167.64)
@@ -7278,7 +8108,7 @@
 		(uuid "75459c5d-b2bf-4075-9eeb-5aa1028ac7fc")
 	)
 	(junction
-		(at 345.44 62.23)
+		(at 347.98 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76ce94db-4576-4e3d-b5dd-ca723d63e4e2")
@@ -7294,6 +8124,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d358987-92df-4bef-a30b-90f62a7af068")
+	)
+	(junction
+		(at 173.99 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97da8190-2ff9-4b46-8757-7c2983625f40")
 	)
 	(junction
 		(at 118.11 40.64)
@@ -7326,12 +8162,6 @@
 		(uuid "b8dab63c-49d6-4f79-a70c-49277d0509f4")
 	)
 	(junction
-		(at 165.1 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c22566e3-7aa6-484f-b431-d437203ee195")
-	)
-	(junction
 		(at 71.12 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7342,12 +8172,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1f37ca1-4c2c-45bf-8d88-bccb8853b52a")
-	)
-	(junction
-		(at 111.76 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d68ee01b-70b8-4fda-912d-34f6adc4645b")
 	)
 	(junction
 		(at 123.19 40.64)
@@ -7368,6 +8192,12 @@
 		(uuid "ecfbec61-8815-4103-832e-18e401c813e3")
 	)
 	(junction
+		(at 165.1 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed8acf14-a348-4b40-906a-a82d5cdb0085")
+	)
+	(junction
 		(at 123.19 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7386,7 +8216,27 @@
 		(uuid "fe06f365-897a-466c-9827-d449064b00cb")
 	)
 	(no_connect
-		(at 321.31 83.82)
+		(at 394.97 113.03)
+		(uuid "045654db-6b1b-4f14-9162-4a281bc2a992")
+	)
+	(no_connect
+		(at 382.27 92.71)
+		(uuid "06513824-ded2-4889-8273-5e9347215178")
+	)
+	(no_connect
+		(at 382.27 102.87)
+		(uuid "06b65035-4183-4f70-bbe2-7f7a2316cc72")
+	)
+	(no_connect
+		(at 382.27 105.41)
+		(uuid "0f9c5343-285a-4fd0-97a3-fc75bc0dfdbf")
+	)
+	(no_connect
+		(at 394.97 100.33)
+		(uuid "0fef5347-ed14-4af5-a3d8-ee573306c3a0")
+	)
+	(no_connect
+		(at 341.63 82.55)
 		(uuid "0ff3dffd-1185-427a-b8f9-f99b0ea01975")
 	)
 	(no_connect
@@ -7398,48 +8248,80 @@
 		(uuid "1b398974-1a33-4a05-bb6e-560d98f59e7b")
 	)
 	(no_connect
-		(at 365.76 114.3)
-		(uuid "1e74d999-6f5f-430e-a9f7-19d55c0e09bc")
-	)
-	(no_connect
 		(at 365.76 119.38)
 		(uuid "2061e920-a58e-4be5-81b2-840acbb6d60a")
 	)
 	(no_connect
-		(at 321.31 78.74)
+		(at 328.93 87.63)
+		(uuid "27bb29a6-22e1-46a4-b06c-8a22313f72c7")
+	)
+	(no_connect
+		(at 341.63 77.47)
 		(uuid "324e74a4-5e2c-42fd-bf48-c7f6e0f7c4b3")
 	)
 	(no_connect
-		(at 321.31 76.2)
+		(at 341.63 74.93)
 		(uuid "32da6e5b-215a-4abc-9a8b-c6095387af86")
 	)
 	(no_connect
-		(at 370.84 77.47)
+		(at 393.7 52.07)
 		(uuid "3673cb7d-89f6-43eb-a896-98a513945900")
+	)
+	(no_connect
+		(at 394.97 97.79)
+		(uuid "3e7da397-a2d2-4f3d-aa69-38a39d60b20c")
 	)
 	(no_connect
 		(at 309.88 106.68)
 		(uuid "3e8d6645-9eb0-43f0-8775-48a85cbc105e")
 	)
 	(no_connect
-		(at 358.14 87.63)
+		(at 394.97 95.25)
+		(uuid "44238cb5-8d95-4805-abac-be93d9eddcef")
+	)
+	(no_connect
+		(at 381 62.23)
 		(uuid "52c3a3d4-7371-44b8-8cbd-25f8b3bda5eb")
 	)
 	(no_connect
-		(at 370.84 74.93)
-		(uuid "55fcbbbc-8fde-4089-bad0-e779cfeb4919")
+		(at 394.97 77.47)
+		(uuid "530478f6-5a3c-45c7-971c-259f159a15a4")
 	)
 	(no_connect
-		(at 321.31 91.44)
+		(at 382.27 115.57)
+		(uuid "53c79deb-742f-43a3-bc1f-871ad1fc8db9")
+	)
+	(no_connect
+		(at 394.97 87.63)
+		(uuid "5c52e870-8430-4251-8319-48f086f2a963")
+	)
+	(no_connect
+		(at 341.63 90.17)
 		(uuid "5c9d75dc-330c-460f-9e09-8cae896e64ec")
+	)
+	(no_connect
+		(at 365.76 127)
+		(uuid "612c3a7e-b30d-4e0c-9a39-4561c8515d66")
+	)
+	(no_connect
+		(at 382.27 95.25)
+		(uuid "6746dbcc-cb01-4eeb-a896-b2d83e57cac9")
 	)
 	(no_connect
 		(at 322.58 109.22)
 		(uuid "69e5c5db-1755-4dca-9a6f-6b19a0cc7d30")
 	)
 	(no_connect
-		(at 308.61 78.74)
+		(at 328.93 77.47)
 		(uuid "6b1978f2-22f2-4be2-b2c3-b2396241eb6e")
+	)
+	(no_connect
+		(at 394.97 107.95)
+		(uuid "6f053304-e697-4ca9-9ce6-7e18154a9a82")
+	)
+	(no_connect
+		(at 382.27 85.09)
+		(uuid "71aa50ce-c6e4-4c63-b1d0-3482c3c432fd")
 	)
 	(no_connect
 		(at 322.58 111.76)
@@ -7454,24 +8336,32 @@
 		(uuid "7d7b3944-7741-494e-a76d-50105d5ae357")
 	)
 	(no_connect
-		(at 370.84 82.55)
+		(at 393.7 57.15)
 		(uuid "82a9b799-3710-4b0b-b582-116af27bbf01")
 	)
 	(no_connect
-		(at 370.84 85.09)
+		(at 393.7 59.69)
 		(uuid "83e9e4cd-0725-43b5-b795-23b227b2c3b4")
 	)
 	(no_connect
-		(at 358.14 74.93)
+		(at 394.97 80.01)
+		(uuid "8525d34a-2c7d-4b9e-8003-8cdcf722de9d")
+	)
+	(no_connect
+		(at 381 49.53)
 		(uuid "882831bb-a985-4e5e-9d9c-f1b429519afe")
 	)
 	(no_connect
-		(at 365.76 111.76)
-		(uuid "8c52ee72-c818-4da9-9ef3-46589540eb8a")
+		(at 394.97 102.87)
+		(uuid "89dfe798-0881-4526-8abf-4407e477f2aa")
 	)
 	(no_connect
 		(at 353.06 116.84)
 		(uuid "92c0f789-eeb6-4457-9815-b7533f434cd6")
+	)
+	(no_connect
+		(at 394.97 92.71)
+		(uuid "9491674b-dee8-4694-bbaa-f4ec693d2e13")
 	)
 	(no_connect
 		(at 365.76 121.92)
@@ -7482,7 +8372,7 @@
 		(uuid "96fdf758-c45b-478f-b138-f085db905e52")
 	)
 	(no_connect
-		(at 370.84 80.01)
+		(at 393.7 54.61)
 		(uuid "9e8d49ce-3bb3-4a1a-8d5f-9b7fe939ee27")
 	)
 	(no_connect
@@ -7490,27 +8380,67 @@
 		(uuid "9f20494f-b0bb-4827-8e02-501cc155dafc")
 	)
 	(no_connect
-		(at 321.31 88.9)
+		(at 341.63 87.63)
 		(uuid "a2641ec2-80a3-4322-95a0-11835e751bec")
+	)
+	(no_connect
+		(at 309.88 129.54)
+		(uuid "a59fe0b9-9e5f-4a46-9591-c2608a51b208")
 	)
 	(no_connect
 		(at 322.58 124.46)
 		(uuid "aa04510a-33e0-4563-a4d1-9d7daea9188d")
 	)
 	(no_connect
-		(at 308.61 83.82)
+		(at 394.97 105.41)
+		(uuid "ab5378ae-18eb-4fe0-b641-7a9e84f24294")
+	)
+	(no_connect
+		(at 382.27 113.03)
+		(uuid "ad490c1e-1850-4e57-9bdc-13e7e053d34d")
+	)
+	(no_connect
+		(at 328.93 90.17)
+		(uuid "af77d136-7f90-454a-9eef-836d71c6c3e8")
+	)
+	(no_connect
+		(at 394.97 90.17)
+		(uuid "b22b776d-24f3-40d1-8376-9c5d2aa773c3")
+	)
+	(no_connect
+		(at 382.27 110.49)
+		(uuid "b7252730-6f66-4a72-9a3e-fc587957c4b2")
+	)
+	(no_connect
+		(at 328.93 82.55)
 		(uuid "bde0a38d-4307-4969-a826-378c48240974")
 	)
 	(no_connect
-		(at 370.84 87.63)
+		(at 394.97 85.09)
+		(uuid "c0a7a7a4-074e-402c-b75c-56dba00edb4e")
+	)
+	(no_connect
+		(at 394.97 110.49)
+		(uuid "c2876a57-e380-4b94-afee-49fde7b65913")
+	)
+	(no_connect
+		(at 393.7 62.23)
 		(uuid "c67d9481-7584-4350-aa48-1f6d774f1e48")
+	)
+	(no_connect
+		(at 394.97 115.57)
+		(uuid "cc6ad9a0-52e5-487e-a573-31d7d5e09a2e")
+	)
+	(no_connect
+		(at 382.27 90.17)
+		(uuid "cd9c80fe-76e8-4a3b-99c9-9ae0500d1e66")
 	)
 	(no_connect
 		(at 309.88 127)
 		(uuid "ce5eac5a-0e64-4f73-bb95-846d118b8ce6")
 	)
 	(no_connect
-		(at 358.14 77.47)
+		(at 381 52.07)
 		(uuid "d49e180a-e25e-4037-8e23-3be62febaa79")
 	)
 	(no_connect
@@ -7518,8 +8448,24 @@
 		(uuid "d6eaf7af-ebdc-4187-8088-da58298bfaa5")
 	)
 	(no_connect
+		(at 394.97 82.55)
+		(uuid "db65771a-3026-45be-af1d-6dd3af03549d")
+	)
+	(no_connect
 		(at 195.58 163.83)
 		(uuid "e1206a22-2080-4690-8c04-d9128a53f122")
+	)
+	(no_connect
+		(at 382.27 107.95)
+		(uuid "e473e65e-cb76-4898-9c17-13e77e98148d")
+	)
+	(no_connect
+		(at 382.27 80.01)
+		(uuid "e4a85d58-0ae8-43f3-8ae4-675e057802ad")
+	)
+	(no_connect
+		(at 365.76 124.46)
+		(uuid "e6bc4739-abd1-4145-8a98-e351c6843ccb")
 	)
 	(no_connect
 		(at 353.06 111.76)
@@ -7530,12 +8476,28 @@
 		(uuid "e834b6fe-ca22-43a8-b934-5b8472a998dd")
 	)
 	(no_connect
+		(at 382.27 82.55)
+		(uuid "eea5430f-7e8b-4996-8366-9d236743870e")
+	)
+	(no_connect
 		(at 365.76 129.54)
 		(uuid "f852118a-74b8-4cb0-8a19-5348ee37135f")
 	)
 	(no_connect
 		(at 322.58 106.68)
 		(uuid "f8d4a6a9-d23a-4f07-ba93-bfe83410f6d2")
+	)
+	(no_connect
+		(at 382.27 97.79)
+		(uuid "f9754254-d753-401b-9137-9ce23d31e6b9")
+	)
+	(no_connect
+		(at 382.27 100.33)
+		(uuid "fae5da64-60ff-46af-beb1-6b761a88bf99")
+	)
+	(no_connect
+		(at 382.27 77.47)
+		(uuid "fc3fc21f-8b13-432e-a960-52860fb17489")
 	)
 	(wire
 		(pts
@@ -7669,6 +8631,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 46.99) (xy 173.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe6fae2-28cd-4293-a130-7debc172e615")
+	)
+	(wire
+		(pts
 			(xy 165.1 129.54) (xy 165.1 130.81)
 		)
 		(stroke
@@ -7676,6 +8648,16 @@
 			(type default)
 		)
 		(uuid "1133a27b-e7f9-47e3-b1d7-7c99d4d38d0d")
+	)
+	(wire
+		(pts
+			(xy 374.65 54.61) (xy 374.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11599a54-c5b7-4f26-8e7e-14c04d8e6cd7")
 	)
 	(wire
 		(pts
@@ -7699,7 +8681,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 118.11) (xy 130.81 120.65)
+			(xy 130.81 107.95) (xy 130.81 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7759,16 +8741,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 107.95) (xy 130.81 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "178bb8c0-2368-4b69-84e0-dd81d7a94535")
-	)
-	(wire
-		(pts
 			(xy 185.42 179.07) (xy 185.42 176.53)
 		)
 		(stroke
@@ -7789,16 +8761,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 222.25) (xy 143.51 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "192fe60e-06e1-4907-aab1-4db06b278a8f")
-	)
-	(wire
-		(pts
 			(xy 200.66 105.41) (xy 195.58 105.41)
 		)
 		(stroke
@@ -7809,7 +8771,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 76.2) (xy 308.61 76.2)
+			(xy 325.12 74.93) (xy 328.93 74.93)
 		)
 		(stroke
 			(width 0)
@@ -7849,17 +8811,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 128.27) (xy 175.26 128.27)
+			(xy 374.65 53.34) (xy 369.57 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e8d8805-4623-4180-b682-2eb5ffc0432f")
+		(uuid "1e53863b-2423-4c7a-a9be-5db9601391fa")
 	)
 	(wire
 		(pts
-			(xy 349.25 66.04) (xy 349.25 62.23)
+			(xy 353.06 60.96) (xy 347.98 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8079,6 +9041,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 205.74) (xy 105.41 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3682a4a5-8ae3-490c-bc44-e7698950288b")
+	)
+	(wire
+		(pts
 			(xy 200.66 167.64) (xy 204.47 167.64)
 		)
 		(stroke
@@ -8089,23 +9061,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 222.25) (xy 132.08 222.25)
+			(xy 167.64 45.72) (xy 167.64 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372bfa44-f340-4d5b-87dc-94e43a2adc34")
+	)
+	(wire
+		(pts
+			(xy 105.41 190.5) (xy 105.41 193.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3b485de9-2c4c-42bf-8531-08f172865229")
-	)
-	(wire
-		(pts
-			(xy 304.8 129.54) (xy 309.88 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b987d49-2fca-4de3-afee-fd923d8b78f9")
 	)
 	(wire
 		(pts
@@ -8139,16 +9111,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 92.71) (xy 144.78 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ddbe39b-152b-44e6-bc87-ca4208a6c926")
-	)
-	(wire
-		(pts
 			(xy 121.92 107.95) (xy 121.92 110.49)
 		)
 		(stroke
@@ -8169,7 +9131,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 73.66) (xy 321.31 73.66)
+			(xy 346.71 72.39) (xy 341.63 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8189,7 +9151,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 81.28) (xy 321.31 81.28)
+			(xy 346.71 80.01) (xy 341.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8219,7 +9181,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 222.25) (xy 138.43 222.25)
+			(xy 105.41 198.12) (xy 105.41 199.39)
 		)
 		(stroke
 			(width 0)
@@ -8256,6 +9218,16 @@
 			(type default)
 		)
 		(uuid "4dad55d1-4f49-4102-9aa4-7ad43c8cc3c9")
+	)
+	(wire
+		(pts
+			(xy 369.57 57.15) (xy 381 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f2e87ce-bc99-493e-af8e-6a2bd346e2f8")
 	)
 	(wire
 		(pts
@@ -8329,7 +9301,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 62.23) (xy 345.44 66.04)
+			(xy 347.98 57.15) (xy 353.06 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8339,13 +9311,33 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 81.28) (xy 308.61 81.28)
+			(xy 372.11 111.76) (xy 365.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ab7ed5-80dc-4396-a0c5-7a86ab59988f")
+	)
+	(wire
+		(pts
+			(xy 325.12 80.01) (xy 328.93 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53b799f3-8379-477f-84e4-99f9cb60b963")
+	)
+	(wire
+		(pts
+			(xy 181.61 40.64) (xy 181.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c0b442-dc3f-4e8f-8af0-d9dba0c7faa1")
 	)
 	(wire
 		(pts
@@ -8459,16 +9451,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 123.19) (xy 165.1 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "641345a4-56e9-408e-9961-6a06bfe4649d")
-	)
-	(wire
-		(pts
 			(xy 35.56 147.32) (xy 35.56 154.94)
 		)
 		(stroke
@@ -8549,6 +9531,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 38.1) (xy 181.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac9c40e-133e-49d4-89c4-5157fc91bc12")
+	)
+	(wire
+		(pts
 			(xy 46.99 154.94) (xy 46.99 158.75)
 		)
 		(stroke
@@ -8559,7 +9551,17 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 73.66) (xy 308.61 73.66)
+			(xy 172.72 125.73) (xy 172.72 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c82f6cd-b781-411b-83a1-defa29c1168e")
+	)
+	(wire
+		(pts
+			(xy 325.12 72.39) (xy 328.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -8589,13 +9591,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 124.46) (xy 165.1 123.19)
+			(xy 167.64 38.1) (xy 171.45 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7026e972-40a5-416e-802d-f247d2776056")
+		(uuid "70e0c005-309c-4bcf-b5e4-6d566253cf59")
 	)
 	(wire
 		(pts
@@ -8649,13 +9651,13 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 88.9) (xy 308.61 88.9)
+			(xy 156.21 125.73) (xy 156.21 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7547d4f9-73c4-4bfa-af21-9478682424b6")
+		(uuid "7599b1e0-7310-425b-9777-ca4e1c2353c1")
 	)
 	(wire
 		(pts
@@ -8666,16 +9668,6 @@
 			(type default)
 		)
 		(uuid "759ed03b-5d72-4680-a702-c603e093cd98")
-	)
-	(wire
-		(pts
-			(xy 111.76 118.11) (xy 111.76 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75cc5cda-7456-4286-b37b-47437e19a166")
 	)
 	(wire
 		(pts
@@ -8706,6 +9698,16 @@
 			(type default)
 		)
 		(uuid "7983ac20-e1dc-4318-926f-b251cf288792")
+	)
+	(wire
+		(pts
+			(xy 181.61 46.99) (xy 181.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a638e9f-70e9-4562-b78e-418af848c052")
 	)
 	(wire
 		(pts
@@ -8759,6 +9761,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 59.69) (xy 374.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df6cad5-3760-4239-a923-e42502986d9b")
+	)
+	(wire
+		(pts
 			(xy 353.06 196.85) (xy 353.06 200.66)
 		)
 		(stroke
@@ -8789,7 +9801,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 66.04) (xy 341.63 62.23)
+			(xy 353.06 53.34) (xy 347.98 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8826,6 +9838,26 @@
 			(type default)
 		)
 		(uuid "81c22872-9146-4577-821d-17b448960c60")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 165.1 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8208dd57-6a45-4205-8b5e-e433704b1814")
+	)
+	(wire
+		(pts
+			(xy 156.21 130.81) (xy 157.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a7dbea-e680-4a1a-be27-dcbb1020f127")
 	)
 	(wire
 		(pts
@@ -8889,6 +9921,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 60.96) (xy 369.57 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86dac4aa-82f8-49f2-9240-d62bfaa03b2e")
+	)
+	(wire
+		(pts
 			(xy 322.58 114.3) (xy 336.55 114.3)
 		)
 		(stroke
@@ -8919,7 +9961,17 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 71.12) (xy 341.63 85.09)
+			(xy 205.74 176.53) (xy 200.66 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88f19757-74e0-4d29-a262-baf42327c03c")
+	)
+	(wire
+		(pts
+			(xy 358.14 53.34) (xy 364.49 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8936,6 +9988,16 @@
 			(type default)
 		)
 		(uuid "89fb2971-d798-4575-818d-6862d4fde282")
+	)
+	(wire
+		(pts
+			(xy 165.1 120.65) (xy 172.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c775509-c28d-43bc-90b5-f213452ee99c")
 	)
 	(wire
 		(pts
@@ -8969,6 +10031,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 54.61) (xy 374.65 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91eecf67-e6b0-470b-9ce1-46a5ec24a657")
+	)
+	(wire
+		(pts
 			(xy 294.64 185.42) (xy 294.64 172.72)
 		)
 		(stroke
@@ -8999,13 +10071,23 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 86.36) (xy 308.61 86.36)
+			(xy 325.12 85.09) (xy 328.93 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94cdb100-a5f4-487c-8a7a-708213449ea1")
+	)
+	(wire
+		(pts
+			(xy 401.32 49.53) (xy 393.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cc3793-8e69-4391-b1d6-0d0cb8027b3c")
 	)
 	(wire
 		(pts
@@ -9029,6 +10111,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 59.69) (xy 374.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99468e1c-739e-47b1-9aa6-f759652c79e5")
+	)
+	(wire
+		(pts
 			(xy 118.11 100.33) (xy 121.92 100.33)
 		)
 		(stroke
@@ -9036,16 +10128,6 @@
 			(type default)
 		)
 		(uuid "9a397416-8375-4162-9c75-b2bdfe314737")
-	)
-	(wire
-		(pts
-			(xy 154.94 130.81) (xy 157.48 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c17e250-b520-45d2-9645-5d4b618f7572")
 	)
 	(wire
 		(pts
@@ -9129,7 +10211,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 100.33) (xy 111.76 100.33)
+			(xy 109.22 100.33) (xy 113.03 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9179,17 +10261,7 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 82.55) (xy 349.25 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b0beb9-a333-4d50-a9ce-c820b4bccbc0")
-	)
-	(wire
-		(pts
-			(xy 326.39 86.36) (xy 321.31 86.36)
+			(xy 346.71 85.09) (xy 341.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -9289,23 +10361,13 @@
 	)
 	(wire
 		(pts
-			(xy 345.44 59.69) (xy 345.44 62.23)
+			(xy 346.71 57.15) (xy 347.98 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aee131b1-b4c7-46cd-8a42-3793a448daa7")
-	)
-	(wire
-		(pts
-			(xy 121.92 92.71) (xy 121.92 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aefa7e76-fd31-4b4b-90bd-d0300a03b855")
 	)
 	(wire
 		(pts
@@ -9349,16 +10411,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 80.01) (xy 358.14 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b47c1a40-a51b-400c-b118-89b9018e8935")
-	)
-	(wire
-		(pts
 			(xy 210.82 140.97) (xy 218.44 140.97)
 		)
 		(stroke
@@ -9369,43 +10421,23 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 118.11) (xy 111.76 118.11)
+			(xy 372.11 114.3) (xy 365.76 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb178304-6000-472f-9521-2c12bd578fea")
+		(uuid "b92a5e6c-4e60-4534-9451-2f8a11233962")
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 113.03 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd69639-9fae-4cf0-9f67-f84aeebe67fb")
-	)
-	(wire
-		(pts
-			(xy 345.44 71.12) (xy 345.44 82.55)
+			(xy 358.14 57.15) (xy 364.49 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be41939f-c4a9-47b7-b98a-a542a98680be")
-	)
-	(wire
-		(pts
-			(xy 354.33 85.09) (xy 358.14 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1b9d3c7-b3e1-44f8-8db5-14efbc480106")
 	)
 	(wire
 		(pts
@@ -9426,16 +10458,6 @@
 			(type default)
 		)
 		(uuid "c303fe86-7d9c-483a-878a-af057c6ea329")
-	)
-	(wire
-		(pts
-			(xy 165.1 123.19) (xy 172.72 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3f91ee9-2971-4d93-948b-8b90829ded81")
 	)
 	(wire
 		(pts
@@ -9466,16 +10488,6 @@
 			(type default)
 		)
 		(uuid "cc3a799a-1b3b-4517-af88-09144b4db8bf")
-	)
-	(wire
-		(pts
-			(xy 373.38 124.46) (xy 365.76 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccd9db55-04b2-4ac3-b822-655b2d76291b")
 	)
 	(wire
 		(pts
@@ -9589,6 +10601,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 120.65) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a828f6-a99d-4cae-aed1-8ad83097004f")
+	)
+	(wire
+		(pts
 			(xy 100.33 60.96) (xy 111.76 60.96)
 		)
 		(stroke
@@ -9599,7 +10621,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 71.12) (xy 349.25 80.01)
+			(xy 358.14 60.96) (xy 364.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9609,23 +10631,23 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 144.78 92.71)
+			(xy 167.64 46.99) (xy 173.99 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da2ae81c-e0e6-46e8-8c68-a5c91616d7ce")
+		(uuid "d89dcb51-c0d6-490c-a0a3-b63e21af2970")
 	)
 	(wire
 		(pts
-			(xy 341.63 85.09) (xy 349.25 85.09)
+			(xy 173.99 46.99) (xy 181.61 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db085825-d6e4-4ddc-8c6c-88e8b1fca966")
+		(uuid "db551b22-78db-4dcf-9092-35dcde8e669e")
 	)
 	(wire
 		(pts
@@ -9639,6 +10661,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 87.63) (xy 382.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc556da7-a6c1-4dfb-9872-23b77da19a53")
+	)
+	(wire
+		(pts
 			(xy 71.12 71.12) (xy 60.96 71.12)
 		)
 		(stroke
@@ -9649,13 +10681,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 118.11) (xy 130.81 118.11)
+			(xy 167.64 40.64) (xy 167.64 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e0973d8d-3af9-4d5c-bfcd-391e2ca0e98f")
+		(uuid "df8e1bf7-a8a2-43a6-b1b9-84a887ec42ae")
 	)
 	(wire
 		(pts
@@ -9729,16 +10761,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 92.71) (xy 121.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb5b275c-cff1-4043-8628-eba2ec64dd3d")
-	)
-	(wire
-		(pts
 			(xy 168.91 68.58) (xy 168.91 69.85)
 		)
 		(stroke
@@ -9759,33 +10781,23 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 91.44) (xy 308.61 91.44)
+			(xy 172.72 128.27) (xy 175.26 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed6e896c-de9d-41b0-ba92-1b9a54c66f66")
+		(uuid "eedad11b-d130-4439-93b6-60834c78de90")
 	)
 	(wire
 		(pts
-			(xy 341.63 62.23) (xy 345.44 62.23)
+			(xy 347.98 53.34) (xy 347.98 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eef666e8-79bf-4d96-badf-2b88e1d8c65f")
-	)
-	(wire
-		(pts
-			(xy 373.38 127) (xy 365.76 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eefd8635-6d5e-4887-9fc2-a3229400b407")
 	)
 	(wire
 		(pts
@@ -9829,16 +10841,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 176.53) (xy 200.66 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f273f4b6-aad2-4f5b-a2ff-de076532188e")
-	)
-	(wire
-		(pts
 			(xy 270.51 60.96) (xy 275.59 60.96)
 		)
 		(stroke
@@ -9866,16 +10868,6 @@
 			(type default)
 		)
 		(uuid "f65f9a03-4d7f-4bdd-a866-d95062dcfe71")
-	)
-	(wire
-		(pts
-			(xy 354.33 82.55) (xy 358.14 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f78e4781-9df7-49c5-9f32-d174a36a9950")
 	)
 	(wire
 		(pts
@@ -9909,7 +10901,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 62.23) (xy 345.44 62.23)
+			(xy 347.98 60.96) (xy 347.98 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9956,6 +10948,16 @@
 			(justify right bottom)
 		)
 		(uuid "0eb7b147-0ee5-42e5-955e-9bba3da4a263")
+	)
+	(label "~{PA_EN}"
+		(at 377.19 87.63 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "11aea5bc-1c2a-433f-9007-4f835ca895cc")
 	)
 	(label "SX_VR_ANAI"
 		(at 175.26 133.35 180)
@@ -10028,7 +11030,7 @@
 		(uuid "20e7401f-489a-4984-9813-99d60b88052b")
 	)
 	(label "CK_OUT"
-		(at 304.8 81.28 180)
+		(at 325.12 80.01 180)
 		(effects
 			(font
 				(size 1 1)
@@ -10238,7 +11240,7 @@
 		(uuid "6792c110-f293-43d5-a24e-eec2bd21ad53")
 	)
 	(label "I_OUT"
-		(at 304.8 73.66 180)
+		(at 325.12 72.39 180)
 		(effects
 			(font
 				(size 1 1)
@@ -10248,7 +11250,7 @@
 		(uuid "67b8923f-a507-4779-b6fc-58e9846c5741")
 	)
 	(label "RST"
-		(at 326.39 86.36 0)
+		(at 346.71 85.09 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10277,15 +11279,15 @@
 		)
 		(uuid "6bf21395-f6c3-4b52-b949-aef732ab14c6")
 	)
-	(label "BTN_RIGHT"
-		(at 300.99 88.9 180)
+	(label "BTN_LEFT"
+		(at 372.11 111.76 180)
 		(effects
 			(font
 				(size 1 1)
 			)
 			(justify right bottom)
 		)
-		(uuid "707e3ab5-a315-478e-b581-39a68f060094")
+		(uuid "6d5df416-5719-4a27-ae7d-5fdbc60c31e1")
 	)
 	(label "NSS"
 		(at 226.06 138.43 0)
@@ -10338,7 +11340,7 @@
 		(uuid "846133e8-3281-49f6-a3e3-be0b09ecb31c")
 	)
 	(label "DIO1"
-		(at 326.39 81.28 0)
+		(at 346.71 80.01 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10368,7 +11370,7 @@
 		(uuid "8dd683a0-20e8-4693-9edf-6a3a72061563")
 	)
 	(label "I_IN"
-		(at 304.8 86.36 180)
+		(at 325.12 85.09 180)
 		(effects
 			(font
 				(size 1 1)
@@ -10467,8 +11469,18 @@
 		)
 		(uuid "b4e32ac7-5eaa-4c93-a464-e22c900a2193")
 	)
+	(label "BTN_RIGHT"
+		(at 401.32 49.53 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5e01e9a-a246-4c68-aa71-276b4b6a2b12")
+	)
 	(label "DIO2"
-		(at 304.8 76.2 180)
+		(at 325.12 74.93 180)
 		(effects
 			(font
 				(size 1 1)
@@ -10476,16 +11488,6 @@
 			(justify right bottom)
 		)
 		(uuid "b66d043a-20d2-4acf-910e-8c6b3feadf34")
-	)
-	(label "BTN_OK"
-		(at 304.8 129.54 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "b7e871cf-6775-4fcb-aa3b-5a7e4a28d403")
 	)
 	(label "TCXO"
 		(at 175.26 146.05 180)
@@ -10527,16 +11529,6 @@
 		)
 		(uuid "bf4f8ae2-9459-496d-8559-5ad7202cd2fd")
 	)
-	(label "~{PA_EN}"
-		(at 373.38 124.46 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "c133e51e-269f-49e8-b4fe-a7bae26654d3")
-	)
 	(label "SDA_oled"
 		(at 372.11 180.34 0)
 		(effects
@@ -10567,6 +11559,16 @@
 		)
 		(uuid "cac2726a-19cf-49dd-9c20-d02ffeb3c98c")
 	)
+	(label "BTN_OK"
+		(at 372.11 114.3 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2694e95-57db-4b4f-b798-f6838ba61f0e")
+	)
 	(label "+3.3V"
 		(at 346.71 119.38 0)
 		(effects
@@ -10578,7 +11580,7 @@
 		(uuid "da147c32-29b1-4a18-afb4-04194fa4e1fd")
 	)
 	(label "NSS"
-		(at 326.39 73.66 0)
+		(at 346.71 72.39 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10606,16 +11608,6 @@
 			(justify left bottom)
 		)
 		(uuid "e4a5ef2d-ccd6-4cef-b06e-581acbbeb1b2")
-	)
-	(label "USB{slash}LAN"
-		(at 373.38 127 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "e603ff5d-977b-4c05-b972-7f14d1caa735")
 	)
 	(label "MISO"
 		(at 326.39 119.38 0)
@@ -10657,16 +11649,6 @@
 		)
 		(uuid "f63da43a-e009-42aa-9e18-3c9b45ccc653")
 	)
-	(label "BTN_LEFT"
-		(at 300.99 91.44 180)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6aaf821-22e2-4aca-a7d2-7839e5b63db5")
-	)
 	(label "CK_OUT"
 		(at 185.42 179.07 270)
 		(effects
@@ -10679,7 +11661,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 128.27 222.25 0)
+		(at 105.41 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10689,8 +11671,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03f55bce-30ec-4115-89e9-07c1bc7b30e1")
-		(property "Reference" "#PWR015"
-			(at 128.27 226.06 0)
+		(property "Reference" "#PWR018"
+			(at 105.41 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,7 +11683,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 128.27 218.1169 0)
+			(at 105.41 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10711,7 +11693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 222.25 0)
+			(at 105.41 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10722,7 +11704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 222.25 0)
+			(at 105.41 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10733,7 +11715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 222.25 0)
+			(at 105.41 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10749,7 +11731,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10767,7 +11749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09ef4dd0-2d69-4c6e-9122-8dc9ceede7f9")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 224.79 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10862,7 +11844,178 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "L2")
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x16_Odd_Even")
+		(at 387.35 97.79 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a800610-8939-4783-9773-5411b5e0158a")
+		(property "Reference" "J9"
+			(at 388.366 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 388.62 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 387.35 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 387.35 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 387.35 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "c0a96f7b-c8f0-48b3-a287-0cc1eef097e6")
+		)
+		(pin "4"
+			(uuid "783134f1-859d-4e82-b1a7-f16f41ebcae5")
+		)
+		(pin "8"
+			(uuid "3987f475-be7a-4ea2-963e-d33f67d18258")
+		)
+		(pin "3"
+			(uuid "bc1312eb-78e2-4b89-8b04-4fecca7a9f45")
+		)
+		(pin "11"
+			(uuid "629e3657-0621-48c4-8d9a-67efa52c8ec2")
+		)
+		(pin "24"
+			(uuid "d60fcf8b-cc74-4f0b-9a7d-0a5ef0297e33")
+		)
+		(pin "20"
+			(uuid "0c50910c-3c3c-4dc5-8f19-c662673edd5c")
+		)
+		(pin "17"
+			(uuid "9e42f74f-337d-43ad-adcc-31ff2dfc8386")
+		)
+		(pin "18"
+			(uuid "419d151f-827e-45ae-b808-d32d9289bd43")
+		)
+		(pin "16"
+			(uuid "0c3cb672-8fe5-479a-a8fe-d6ba3b43f4e9")
+		)
+		(pin "7"
+			(uuid "03a32843-5ffd-4147-aff1-aa539b164ce4")
+		)
+		(pin "15"
+			(uuid "bf134f4e-2c2e-4c6e-8d6e-7febf3ed7d30")
+		)
+		(pin "13"
+			(uuid "764075df-1783-4256-849a-4cf56acaa61a")
+		)
+		(pin "21"
+			(uuid "4ad1f30b-69f9-4847-8541-c80c6791b446")
+		)
+		(pin "9"
+			(uuid "664688f1-ee36-4d5e-ab19-00cad4557b2e")
+		)
+		(pin "10"
+			(uuid "1404fe26-1090-4c34-a247-1f44ad89e868")
+		)
+		(pin "2"
+			(uuid "8a94cada-0ffa-47eb-9fd9-2759474e7b02")
+		)
+		(pin "5"
+			(uuid "b1fab69f-788c-4437-99ed-af1ef4bae754")
+		)
+		(pin "19"
+			(uuid "17745335-669c-476a-b0f6-9443a9f81b26")
+		)
+		(pin "1"
+			(uuid "77fb8726-1e2e-4e29-a886-93bef787b8c2")
+		)
+		(pin "22"
+			(uuid "535d7e18-6f39-4651-8b4e-6f7e31f70b1f")
+		)
+		(pin "12"
+			(uuid "75b4d775-c6c6-4af9-8132-6a4e337b1617")
+		)
+		(pin "23"
+			(uuid "fb18a8a6-9e81-45d1-9bab-0a0571e7df54")
+		)
+		(pin "14"
+			(uuid "f085ad83-c21a-4780-abec-cce9c917caa5")
+		)
+		(pin "26"
+			(uuid "458f198f-65e6-4086-845c-5ee79b2773b6")
+		)
+		(pin "28"
+			(uuid "3213fc51-772c-4097-9f2a-0d366acdd808")
+		)
+		(pin "27"
+			(uuid "54313a0a-3567-46d3-a897-e7677a4eae18")
+		)
+		(pin "29"
+			(uuid "6f462903-1ae5-4437-944e-3c8f8c5775dc")
+		)
+		(pin "30"
+			(uuid "43acf0f5-a806-4a6d-8484-7117aa23bbfe")
+		)
+		(pin "32"
+			(uuid "75a12f13-af6b-46c2-a39d-49a9c5ab67e0")
+		)
+		(pin "31"
+			(uuid "95200343-29b8-48f0-a0ba-0ab6e4973f12")
+		)
+		(pin "25"
+			(uuid "120f8468-d2cd-46ac-bbd9-7fc5adb0a9de")
+		)
+		(instances
+			(project "FRDM-SX1255+ V2"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10933,7 +12086,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "C&K"
+		(property "Manufacturer" "E-Switch"
 			(at 306.07 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10944,7 +12097,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "PTS647SK70SMTR2N LFS"
+		(property "Manufacturer Product Number" "TL3305CF260QG"
 			(at 306.07 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10955,7 +12108,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part Number" "108-PTS647SK70SMTR2NLFSCT-ND"
+		(property "DigiKey Part Number" "EG5355CT-ND"
 			(at 306.07 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -11095,7 +12248,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 351.79 82.55 270)
+		(at 367.03 57.15 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11104,8 +12258,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1452595c-b374-43d5-b2c1-873c70a343cc")
-		(property "Reference" "R25"
-			(at 351.282 91.948 0)
+		(property "Reference" "R32"
+			(at 362.712 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11115,7 +12269,7 @@
 			)
 		)
 		(property "Value" "1K5"
-			(at 352.806 92.202 0)
+			(at 364.236 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11125,7 +12279,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 351.79 82.55 0)
+			(at 367.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11136,7 +12290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 82.55 0)
+			(at 367.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11147,7 +12301,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 348.996 86.614 0)
+			(at 364.236 53.086 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11158,7 +12312,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 351.79 82.55 0)
+			(at 367.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11169,7 +12323,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CRCW06031K50JNEA"
-			(at 351.79 82.55 0)
+			(at 367.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11180,7 +12334,7 @@
 			)
 		)
 		(property "Part Number" "541-1.5KGCT-ND"
-			(at 351.79 82.55 0)
+			(at 367.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11199,7 +12353,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R25")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -11207,7 +12361,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 345.44 68.58 270)
+		(at 355.6 57.15 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11217,7 +12372,7 @@
 		(dnp no)
 		(uuid "14aaeca8-9773-4f0d-a345-958614a4e489")
 		(property "Reference" "D4"
-			(at 344.424 74.168 0)
+			(at 357.886 58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11226,8 +12381,8 @@
 				)
 			)
 		)
-		(property "Value" "Warn"
-			(at 346.71 74.422 0)
+		(property "Value" "Info"
+			(at 352.044 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11237,7 +12392,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 345.44 68.58 90)
+			(at 355.6 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11248,7 +12403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 68.58 90)
+			(at 355.6 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11259,7 +12414,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 345.44 68.58 0)
+			(at 355.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11270,7 +12425,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 345.44 68.58 0)
+			(at 355.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11281,7 +12436,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 345.44 68.58 0)
+			(at 355.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11292,7 +12447,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "LTST-C190KSKT"
-			(at 345.44 68.58 0)
+			(at 355.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11303,7 +12458,7 @@
 			)
 		)
 		(property "Part Number" "160-1437-1-ND"
-			(at 345.44 68.58 0)
+			(at 355.6 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11329,118 +12484,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 200.66 173.99 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "175fa8cd-ed5b-43bd-88a8-9eaa1024d63f")
-		(property "Reference" "R14"
-			(at 203.2 174.244 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "1R"
-			(at 203.2 172.212 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 200.66 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 196.596 171.196 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 200.66 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "CRCW06031R00FKEA"
-			(at 200.66 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "541-1.00HHCT-ND"
-			(at 200.66 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a22cc0b9-7db7-4ac4-9393-39d29e19049f")
-		)
-		(pin "2"
-			(uuid "950d46a1-5a24-433e-9dc0-274a332627e5")
-		)
-		(instances
-			(project "FRDM-SX1255+ V2"
-				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
 		(at 360.68 119.38 0)
 		(mirror y)
@@ -11452,7 +12495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "179c0d22-a4ca-4a3f-bf12-1a3f46311b0a")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 359.41 104.394 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11556,7 +12599,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11651,7 +12694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e90d155-8dd3-4adb-a9e9-ef0a79ec0581")
-		(property "Reference" "R27"
+		(property "Reference" "R29"
 			(at 362.712 183.642 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11746,7 +12789,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11763,7 +12806,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "208e9bd7-6c1b-41cf-a678-204024e66bce")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 127.254 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11858,7 +12901,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12083,7 +13126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258eaac6-0af3-4a5c-b545-9185b1771c81")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR020"
 			(at 140.97 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -12143,7 +13186,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR040")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12161,7 +13204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27730113-4854-4aa6-862a-9844b00f5079")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR015"
 			(at 114.3 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -12221,7 +13264,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR036")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12238,7 +13281,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28f740f9-b75d-44cf-aab8-6faf927b4a45")
-		(property "Reference" "R20"
+		(property "Reference" "R25"
 			(at 221.488 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12333,7 +13376,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R20")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12350,7 +13393,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "291dd55c-4010-423e-bfbc-a4349f3a3b79")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 176.784 159.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12445,7 +13488,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12462,7 +13505,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "297d9de6-e9da-498e-99fd-225d462d05d1")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 68.58 171.5658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12559,7 +13602,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -12567,7 +13610,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
-		(at 365.76 80.01 0)
+		(at 388.62 54.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12577,8 +13620,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a5ad069-b2b8-4304-a793-16f6ad5ffaa5")
-		(property "Reference" "J7"
-			(at 364.49 68.58 0)
+		(property "Reference" "J4"
+			(at 387.35 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12588,7 +13631,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 364.49 71.12 0)
+			(at 387.35 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12598,7 +13641,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
-			(at 365.76 80.01 0)
+			(at 388.62 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12609,7 +13652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 80.01 0)
+			(at 388.62 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12620,7 +13663,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 365.76 80.01 0)
+			(at 388.62 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12669,7 +13712,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12686,7 +13729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c9103cc-ba9f-4f9d-8be3-4a6acbfd7320")
-		(property "Reference" "R15"
+		(property "Reference" "R20"
 			(at 219.964 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12781,7 +13824,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R15")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -12798,7 +13841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31e57f2f-4e64-43a8-86a4-97f2f014dbce")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 50.8 224.9058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12895,7 +13938,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12903,7 +13946,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 351.79 80.01 270)
+		(at 367.03 60.96 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12912,8 +13956,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32034a70-9ca0-4721-be09-3bc63fa5c00b")
-		(property "Reference" "R24"
-			(at 351.282 88.646 0)
+		(property "Reference" "R33"
+			(at 362.712 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12923,7 +13967,7 @@
 			)
 		)
 		(property "Value" "1K5"
-			(at 352.806 88.9 0)
+			(at 364.236 62.992 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12933,7 +13977,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 351.79 80.01 0)
+			(at 367.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12944,7 +13988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 80.01 0)
+			(at 367.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12955,7 +13999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 348.996 84.074 0)
+			(at 364.236 56.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12966,7 +14010,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 351.79 80.01 0)
+			(at 367.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12977,7 +14021,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CRCW06031K50JNEA"
-			(at 351.79 80.01 0)
+			(at 367.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12988,7 +14032,7 @@
 			)
 		)
 		(property "Part Number" "541-1.5KGCT-ND"
-			(at 351.79 80.01 0)
+			(at 367.03 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13007,7 +14051,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R24")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -13015,7 +14059,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 140.97 222.25 180)
+		(at 105.41 201.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13025,7 +14069,7 @@
 		(dnp no)
 		(uuid "33b7ffb7-d881-477e-9795-ba8e03348fec")
 		(property "Reference" "D2"
-			(at 141.224 216.154 0)
+			(at 111.506 202.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13035,7 +14079,7 @@
 			)
 		)
 		(property "Value" "PWR"
-			(at 141.224 218.44 0)
+			(at 109.22 202.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13045,7 +14089,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 140.97 222.25 90)
+			(at 105.41 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13056,7 +14100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 222.25 90)
+			(at 105.41 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13067,7 +14111,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 140.97 222.25 0)
+			(at 105.41 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13078,7 +14122,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 140.97 222.25 0)
+			(at 105.41 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13089,7 +14133,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 140.97 222.25 0)
+			(at 105.41 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13100,7 +14144,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "LTST-T180UWET"
-			(at 140.97 222.25 0)
+			(at 105.41 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13111,7 +14155,7 @@
 			)
 		)
 		(property "Part Number" "160-LTST-T180UWETCT-ND"
-			(at 140.97 222.25 0)
+			(at 105.41 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13147,7 +14191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3650aea4-c9a9-4044-97bf-1025e11a9cfa")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 149.352 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13244,7 +14288,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13261,7 +14305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "373e155a-aa98-48df-a415-73e47d530f10")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 121.92 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -13322,7 +14366,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -13339,7 +14383,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c199daa-b5fc-47f0-babd-c5d44f370916")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 39.4858 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13405,7 +14449,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "CL31B226MPHNNNE"
+		(property "Manufacturer Product Number" "CL21A226KOQNNNE"
 			(at 40.64 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13416,7 +14460,7 @@
 				)
 			)
 		)
-		(property "Part Number" "1276-3148-1-ND"
+		(property "Part Number" "1276-6526-1-ND"
 			(at 40.64 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13436,7 +14480,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -13453,7 +14497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d0d9076-8b94-4a02-ad12-4faa28861cea")
-		(property "Reference" "R13"
+		(property "Reference" "R18"
 			(at 176.784 175.514 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13548,7 +14592,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R13")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -13565,7 +14609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3fa469f2-580a-4b59-af37-57dc4fcaebb7")
-		(property "Reference" "R22"
+		(property "Reference" "R27"
 			(at 213.36 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13660,7 +14704,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R22")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -13677,7 +14721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42581707-f727-426e-bfc3-b4eef6e80f68")
-		(property "Reference" "R12"
+		(property "Reference" "R17"
 			(at 177.038 172.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13772,7 +14816,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R12")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -13789,7 +14833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4366e6b8-26a4-4d57-8758-b5e2390632b8")
-		(property "Reference" "R19"
+		(property "Reference" "R24"
 			(at 225.044 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13884,7 +14928,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R19")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -14017,7 +15061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "459d5b83-2f8a-45e1-8ca4-776810d6c08d")
-		(property "Reference" "C18"
+		(property "Reference" "C8"
 			(at 125.984 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14112,7 +15156,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C18")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -14130,7 +15174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47cc5655-0d0a-4758-ad06-6e9e6bb92af0")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 342.9 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14190,7 +15234,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -14198,7 +15242,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 172.72 125.73 0)
+		(at 172.72 123.19 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14208,8 +15252,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "481ac6a7-e1bd-4274-a5d4-d4f703b1c84c")
-		(property "Reference" "C13"
-			(at 177.546 122.936 0)
+		(property "Reference" "C16"
+			(at 177.546 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14220,7 +15264,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 177.546 124.714 0)
+			(at 177.546 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14231,7 +15275,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 172.72 125.73 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14242,7 +15286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 125.73 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14253,7 +15297,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 125.73 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14264,7 +15308,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 172.72 125.73 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14275,7 +15319,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "C0603C103K8RACTU"
-			(at 172.72 125.73 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14286,7 +15330,7 @@
 			)
 		)
 		(property "Part Number" "399-C0603C103K8RACTUCT-ND"
-			(at 172.72 125.73 0)
+			(at 172.72 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14305,7 +15349,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -14313,7 +15357,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 345.44 59.69 180)
+		(at 346.71 57.15 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14321,10 +15366,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "484907b9-137e-497d-be1e-a3a294254cdf")
-		(property "Reference" "#PWR034"
-			(at 345.44 53.34 0)
+		(property "Reference" "#PWR039"
+			(at 340.36 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14335,17 +15379,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 345.44 54.61 0)
+			(at 343.662 59.182 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 59.69 0)
+			(at 346.71 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14356,7 +15401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 59.69 0)
+			(at 346.71 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14367,7 +15412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 345.44 59.69 0)
+			(at 346.71 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14383,7 +15428,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR034")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14400,7 +15445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "490c8cdd-98c3-4926-aee5-7b268c0284a7")
-		(property "Reference" "R10"
+		(property "Reference" "R15"
 			(at 176.784 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14495,7 +15540,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14566,7 +15611,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "C&K"
+		(property "Manufacturer" "E-Switch"
 			(at 306.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14577,7 +15622,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "PTS647SK70SMTR2N LFS"
+		(property "Manufacturer Product Number" "TL3305CF260QG"
 			(at 306.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14588,7 +15633,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part Number" "108-PTS647SK70SMTR2NLFSCT-ND"
+		(property "DigiKey Part Number" "EG5355CT-ND"
 			(at 306.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14616,7 +15661,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 227.33 0)
+		(at 105.41 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14626,8 +15671,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d3913aa-2359-4ee0-a0a1-f98dcd99e724")
-		(property "Reference" "#PWR019"
-			(at 143.51 233.68 0)
+		(property "Reference" "#PWR022"
+			(at 105.41 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14638,7 +15683,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 231.4631 0)
+			(at 105.41 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14648,7 +15693,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 227.33 0)
+			(at 105.41 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14659,7 +15704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 227.33 0)
+			(at 105.41 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14670,7 +15715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 227.33 0)
+			(at 105.41 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14686,7 +15731,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -14819,7 +15864,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4f53ed6a-c315-46b7-bb22-a0d397b4adc8")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 161.29 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -14880,7 +15925,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14897,7 +15942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fa194e2-cca1-4b24-97c2-5e3ec222e10e")
-		(property "Reference" "R30"
+		(property "Reference" "R11"
 			(at 175.006 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14992,7 +16037,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R30")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15009,7 +16054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51518ab0-dd51-4697-a373-637da3065aaa")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 109.22 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -15069,7 +16114,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15087,7 +16132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52723aa0-d75b-4d51-a03d-a8745f676c79")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR019"
 			(at 133.35 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15147,7 +16192,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR038")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -15165,7 +16210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52ab320a-18e8-4399-ae73-b9b72cdb3631")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 193.04 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15225,7 +16270,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15242,7 +16287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53d59397-9c33-444e-834a-9efc01975058")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR029"
 			(at 189.23 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15303,7 +16348,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR024")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15320,7 +16365,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54f9af84-9e8c-47d0-9521-bc91de73f78d")
-		(property "Reference" "R33"
+		(property "Reference" "R5"
 			(at 127 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15415,7 +16460,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R33")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15433,7 +16478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550b434b-a4b3-4ea4-b1ea-fa134333375e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR06"
 			(at 48.26 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -15493,7 +16538,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR03")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -15501,7 +16546,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 351.79 85.09 270)
+		(at 367.03 53.34 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15510,8 +16556,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "552f7853-0c44-401d-9a43-2d5caaaec573")
-		(property "Reference" "R26"
-			(at 351.282 95.504 0)
+		(property "Reference" "R31"
+			(at 362.966 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15521,7 +16567,7 @@
 			)
 		)
 		(property "Value" "1K5"
-			(at 352.806 95.758 0)
+			(at 364.49 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15531,7 +16577,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 351.79 85.09 0)
+			(at 367.03 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15542,7 +16588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 85.09 0)
+			(at 367.03 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15553,7 +16599,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 348.996 89.154 0)
+			(at 364.236 49.276 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15564,7 +16610,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 351.79 85.09 0)
+			(at 367.03 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15575,7 +16621,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CRCW06031K50JNEA"
-			(at 351.79 85.09 0)
+			(at 367.03 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15586,7 +16632,7 @@
 			)
 		)
 		(property "Part Number" "541-1.5KGCT-ND"
-			(at 351.79 85.09 0)
+			(at 367.03 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15605,7 +16651,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R26")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -15622,7 +16668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "557958b4-cd8c-4de4-8bf1-360d7c5e1db3")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 46.99 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15682,7 +16728,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15699,7 +16745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55a5b34e-75fc-4b3c-8140-b20eead60c68")
-		(property "Reference" "R31"
+		(property "Reference" "R12"
 			(at 185.928 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15794,7 +16840,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R31")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -15924,7 +16970,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ae15064-8d64-4353-9827-d3b94c7d7c17")
-		(property "Reference" "C19"
+		(property "Reference" "C9"
 			(at 125.984 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16019,7 +17065,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C19")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16027,7 +17073,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 134.62 222.25 270)
+		(at 105.41 195.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16036,8 +17082,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "615d066a-87fa-4114-a02c-4f3431362d69")
-		(property "Reference" "R6"
-			(at 134.112 225.552 0)
+		(property "Reference" "R8"
+			(at 102.108 195.072 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16047,7 +17093,7 @@
 			)
 		)
 		(property "Value" "3K3"
-			(at 135.636 225.806 0)
+			(at 101.854 196.596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16057,7 +17103,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.62 222.25 0)
+			(at 105.41 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16068,7 +17114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 222.25 0)
+			(at 105.41 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16079,7 +17125,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 131.826 226.314 0)
+			(at 101.346 192.786 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16090,7 +17136,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay Dale"
-			(at 134.62 222.25 0)
+			(at 105.41 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16101,7 +17147,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CRCW06033K30FKEA"
-			(at 134.62 222.25 0)
+			(at 105.41 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16112,7 +17158,7 @@
 			)
 		)
 		(property "Part Number" "541-3.30KHCT-ND"
-			(at 134.62 222.25 0)
+			(at 105.41 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16131,7 +17177,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16149,7 +17195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "638fbf73-ea2f-48b5-9102-9f22387564cc")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 227.33 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16244,7 +17290,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -16252,7 +17298,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 341.63 68.58 270)
+		(at 355.6 53.34 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16262,7 +17309,7 @@
 		(dnp no)
 		(uuid "65922d3c-e122-42b7-8c24-575c42e4db91")
 		(property "Reference" "D3"
-			(at 336.296 68.834 0)
+			(at 357.886 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16272,7 +17319,7 @@
 			)
 		)
 		(property "Value" "Good"
-			(at 338.582 68.326 0)
+			(at 355.6 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16282,7 +17329,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 341.63 68.58 90)
+			(at 355.6 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16293,7 +17340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 68.58 90)
+			(at 355.6 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16304,7 +17351,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 341.63 68.58 0)
+			(at 355.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16315,7 +17362,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 341.63 68.58 0)
+			(at 355.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16326,7 +17373,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 341.63 68.58 0)
+			(at 355.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16337,7 +17384,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "APT1608SGD3"
-			(at 341.63 68.58 0)
+			(at 355.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16348,7 +17395,7 @@
 			)
 		)
 		(property "Part Number" "754-APT1608SGD3CT-ND"
-			(at 341.63 68.58 0)
+			(at 355.6 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16385,7 +17432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6877a68a-b7ae-4c06-976a-15340077a79f")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 316.23 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16501,7 +17548,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -16518,7 +17565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69f99502-e0ea-42c8-9f99-ebe692de771a")
-		(property "Reference" "R29"
+		(property "Reference" "R10"
 			(at 165.608 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16613,7 +17660,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R29")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -16621,7 +17668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 123.19 270)
+		(at 165.1 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16630,8 +17677,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f89e294-4fd4-4c21-ab27-ada70bba7add")
-		(property "Reference" "#PWR021"
-			(at 153.67 123.19 0)
+		(property "Reference" "#PWR025"
+			(at 165.1 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16642,7 +17689,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 123.19 90)
+			(at 165.1 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16653,7 +17700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 123.19 0)
+			(at 165.1 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16664,7 +17711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 123.19 0)
+			(at 165.1 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16675,7 +17722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 123.19 0)
+			(at 165.1 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16691,7 +17738,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -16828,7 +17875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78fab863-b814-4f43-80f6-3d9e1ea38b76")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR037"
 			(at 342.9 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16889,7 +17936,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR032")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16906,7 +17953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79cf502d-43d4-4ed3-9634-ac21ac85e654")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR028"
 			(at 176.53 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16967,7 +18014,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16985,7 +18032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c30ae8a-4b34-4561-809a-676378756834")
-		(property "Reference" "C15"
+		(property "Reference" "C18"
 			(at 206.248 162.052 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17082,7 +18129,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C15")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -17099,7 +18146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c4e00c4-beae-45e8-83f7-30eaa6117301")
-		(property "Reference" "R28"
+		(property "Reference" "R30"
 			(at 362.712 187.452 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17194,7 +18241,126 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R28")
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS84")
+		(at 130.81 102.87 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cfddb23-a5eb-420c-b553-3486d91c7474")
+		(property "Reference" "Q1"
+			(at 130.81 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP1045U"
+			(at 130.81 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 128.905 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/datasheet/download/DMP1045U.pdf"
+			(at 127 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "P-Channel 12 V 2.6A (Ta) 530mW"
+			(at 130.81 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 130.81 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "DMP1045UQ-7"
+			(at 130.81 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part Number" "31-DMP1045UQ-7CT-ND"
+			(at 130.81 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9247a4f1-de1d-4939-958a-9b7506cbaa35")
+		)
+		(pin "2"
+			(uuid "2e19d058-d9ff-4d2a-a075-15785d3dbbfc")
+		)
+		(pin "3"
+			(uuid "51ad5178-082a-4e90-ae65-7713eae5845c")
+		)
+		(instances
+			(project "FRDM-SX1255+ V2"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -17202,7 +18368,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 200.66 177.8 270)
+		(at 205.74 176.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17211,8 +18377,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7dc92597-4806-465d-a697-69c049c5a572")
-		(property "Reference" "#PWR026"
-			(at 196.85 177.8 0)
+		(property "Reference" "#PWR031"
+			(at 201.93 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17223,7 +18389,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 204.7931 177.8 0)
+			(at 209.8731 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17233,7 +18399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 177.8 0)
+			(at 205.74 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17244,7 +18410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 177.8 0)
+			(at 205.74 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17255,7 +18421,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 200.66 177.8 0)
+			(at 205.74 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17271,7 +18437,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR026")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17403,7 +18569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86ad7238-76cd-444f-9a4e-48adc2528556")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR027"
 			(at 175.26 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17463,7 +18629,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR039")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -17480,7 +18646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "86b7c871-e451-4dd5-befd-ce34242071ed")
-		(property "Reference" "R23"
+		(property "Reference" "R28"
 			(at 274.066 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17575,7 +18741,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R23")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -17711,7 +18877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89681ac5-d12a-4c57-8919-264b4d2996df")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR036"
 			(at 280.67 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -17771,7 +18937,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17788,7 +18954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89bbc3ef-d22f-4989-908a-4199da090082")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 149.352 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17885,7 +19051,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -17902,7 +19068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8cec1689-f6eb-4e7b-9892-116bfd31f9e7")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 46.99 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -17963,7 +19129,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -17980,7 +19146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8dd660ab-4ab5-4003-b0e5-de034c8136b8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR032"
 			(at 219.71 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -18041,7 +19207,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR027")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18059,7 +19225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f8bb394-72cd-4735-82c0-2ae98b6c30ea")
-		(property "Reference" "C12"
+		(property "Reference" "C15"
 			(at 160.274 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18156,7 +19322,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C12")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -18173,7 +19339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "949b9e3b-8222-4ed4-9df5-8e88012e871c")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 176.784 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18268,7 +19434,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -18285,7 +19451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "958e75dd-b9c2-458c-bdba-b83b10bc5ccd")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 176.784 162.306 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18380,7 +19546,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -18388,7 +19554,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 313.69 83.82 0)
+		(at 334.01 82.55 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18398,8 +19564,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "958e8cdc-d7fc-4130-a5b2-c633b3dbbe79")
-		(property "Reference" "J3"
-			(at 314.96 67.31 0)
+		(property "Reference" "J1"
+			(at 335.28 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18409,7 +19575,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 314.96 69.85 0)
+			(at 335.28 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18419,7 +19585,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
-			(at 313.69 83.82 0)
+			(at 334.01 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18430,7 +19596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 83.82 0)
+			(at 334.01 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18441,7 +19607,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 313.69 83.82 0)
+			(at 334.01 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18502,7 +19668,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -18519,7 +19685,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "960c70d2-0cb9-4dcb-baed-7c87ff8b58f0")
-		(property "Reference" "R18"
+		(property "Reference" "R23"
 			(at 220.218 125.222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18614,7 +19780,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R18")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -18760,7 +19926,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a2f2cbc-7125-4819-885f-adc9339ed743")
-		(property "Reference" "R32"
+		(property "Reference" "R7"
 			(at 134.62 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18855,7 +20021,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R32")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18872,7 +20038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d60107a-4439-4527-97a7-2498273d1267")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 35.56 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18933,7 +20099,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -18951,7 +20117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d631272-aeb5-46f7-9f41-fe94341afc21")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 48.26 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -19011,7 +20177,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19141,7 +20307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1a0f9bd-86e5-4a33-a6e7-20766163df67")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 60.96 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -19201,87 +20367,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 130.81 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a43f27d3-5f36-45f5-a5cc-307e765f8444")
-		(property "Reference" "bypass1"
-			(at 130.81 88.392 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bypass"
-			(at 130.81 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 130.81 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 130.81 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49a0ce83-e97c-4b15-969d-52da52cb221f")
-		)
-		(pin "2"
-			(uuid "fc05a336-5a65-42a3-a93c-952478ba5b5a")
-		)
-		(instances
-			(project "FRDM-SX1255+ V2"
-				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "bypass1")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -19299,7 +20385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a72e5bc7-6b99-44b0-a5f8-d48671442abb")
-		(property "Reference" "C16"
+		(property "Reference" "C19"
 			(at 210.82 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19396,7 +20482,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C16")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -19414,7 +20500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9d10934-10f7-4dd1-8f2b-3221f2c6ba0a")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR040"
 			(at 353.06 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -19474,7 +20560,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19491,7 +20577,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa957d77-576a-46c0-bed5-d49ddfb53be1")
-		(property "Reference" "R21"
+		(property "Reference" "R26"
 			(at 217.678 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19586,7 +20672,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R21")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -19603,7 +20689,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad26361c-730b-4434-ba51-24846ba50aaf")
-		(property "Reference" "R17"
+		(property "Reference" "R22"
 			(at 220.218 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19698,7 +20784,119 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R17")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 115.57 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad6b1e4c-e029-42a8-8578-f9a0aaa21fe8")
+		(property "Reference" "R2"
+			(at 116.332 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1R"
+			(at 114.554 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 112.776 104.394 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "ERJ-3BQF1R0V"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "P17371CT-ND"
+			(at 115.57 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35aa62b3-7ad9-451c-994a-ba770297d265")
+		)
+		(pin "2"
+			(uuid "6e9ca5bd-b127-4039-b66e-2bbe15d45739")
+		)
+		(instances
+			(project "FRDM-SX1255+ V2"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -19716,7 +20914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae3cad71-ddd6-452a-b489-046bdfacad6f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 90.17 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -19776,7 +20974,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -19871,7 +21069,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b583ff9d-d9b0-4d23-9509-1fa92a07a6ef")
-		(property "Reference" "R16"
+		(property "Reference" "R21"
 			(at 220.218 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19966,7 +21164,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R16")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -19974,7 +21172,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 154.94 130.81 0)
+		(at 156.21 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19983,8 +21181,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b766ab69-a179-4cd6-9617-9b7a8543f062")
-		(property "Reference" "#PWR020"
-			(at 154.94 134.62 0)
+		(property "Reference" "#PWR024"
+			(at 156.21 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19995,7 +21193,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 154.94 126.6769 0)
+			(at 156.21 121.5969 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20005,7 +21203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 130.81 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20016,7 +21214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 130.81 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20027,7 +21225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 130.81 0)
+			(at 156.21 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20043,7 +21241,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -20061,7 +21259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb6522ea-4e87-47f9-8373-a59f17442454")
-		(property "Reference" "L4"
+		(property "Reference" "L2"
 			(at 124.46 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20158,7 +21356,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "L4")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -20166,7 +21364,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 349.25 68.58 270)
+		(at 355.6 60.96 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20176,7 +21375,7 @@
 		(dnp no)
 		(uuid "bd477df7-bbb7-41ea-860f-93e5440088a2")
 		(property "Reference" "D5"
-			(at 353.06 68.58 0)
+			(at 357.886 61.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20186,7 +21385,7 @@
 			)
 		)
 		(property "Value" "Err"
-			(at 355.346 68.072 0)
+			(at 355.346 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20196,7 +21395,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 349.25 68.58 90)
+			(at 355.6 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20207,7 +21406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 68.58 90)
+			(at 355.6 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20218,7 +21417,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 349.25 68.58 0)
+			(at 355.6 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20229,7 +21428,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 349.25 68.58 0)
+			(at 355.6 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20240,7 +21439,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On Inc."
-			(at 349.25 68.58 0)
+			(at 355.6 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20251,7 +21450,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "LTST-S270KRKT"
-			(at 349.25 68.58 0)
+			(at 355.6 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20262,7 +21461,7 @@
 			)
 		)
 		(property "Part Number" "160-1479-1-ND"
-			(at 349.25 68.58 0)
+			(at 355.6 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20299,7 +21498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "becce659-9249-47cb-aac2-78d64912f8ea")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 114.2936 66.6664 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20394,238 +21593,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 127 118.11 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf3ee39b-719a-44b1-90c3-a5d5cb6deed0")
-		(property "Reference" "R4"
-			(at 126.746 114.808 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 124.206 114.808 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 124.206 122.174 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 127 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "CRCW060310K0FKEA"
-			(at 127 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "541-10.0KHCT-ND"
-			(at 127 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d0dba60-67c8-49b1-b6d1-0316d5089c6b")
-		)
-		(pin "2"
-			(uuid "eef85386-a484-4085-a724-d9b0f9048fac")
-		)
-		(instances
-			(project "FRDM-SX1255+ V2"
-				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS84")
-		(at 130.81 102.87 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c4d1fa5b-19b6-4562-bc4e-111985c7bf56")
-		(property "Reference" "Q1"
-			(at 135.128 103.886 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BSS84"
-			(at 135.128 106.172 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 128.905 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "MDD"
-			(at 130.81 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "BSS84"
-			(at 130.81 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "3372-BSS84TR-ND"
-			(at 130.81 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e078e0eb-351c-4304-9f6e-5c95516980a9")
-		)
-		(pin "3"
-			(uuid "03a18113-0281-4f6f-8df0-5a2766a060a0")
-		)
-		(pin "1"
-			(uuid "f9b72f09-3e35-44be-8707-76455df3f8e0")
-		)
-		(instances
-			(project "FRDM-SX1255+ V2"
-				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "Q1")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -20642,7 +21610,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7672b4b-55d2-4229-ac33-a0d104c4ca7c")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 68.58 224.9058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20708,7 +21676,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "CL31B226MPHNNNE"
+		(property "Manufacturer Product Number" "CL21A226KOQNNNE"
 			(at 66.04 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -20719,7 +21687,7 @@
 				)
 			)
 		)
-		(property "Part Number" "1276-3148-1-ND"
+		(property "Part Number" "1276-6526-1-ND"
 			(at 66.04 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -20739,7 +21707,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -20751,7 +21719,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -20849,6 +21817,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 181.61 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb7c1e28-79d1-4a3d-afb6-ceb01717fe8f")
+		(property "Reference" "R36"
+			(at 184.658 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 184.912 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 185.674 45.974 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 181.61 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bcb95cd-75ac-4992-8443-befc6f745176")
+		)
+		(pin "2"
+			(uuid "42c34406-8917-4cd5-a6ea-be6e6d6cc9ec")
+		)
+		(instances
+			(project "FRDM-SX1255+ V2"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 40.64 154.94 270)
 		(unit 1)
@@ -20859,7 +21939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc6e8705-8dbb-4fb9-a5ad-f3831dccf557")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 40.64 150.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20954,7 +22034,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -20971,7 +22051,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdb907c2-4284-4e25-a594-64b3e972c73d")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 124.46 104.2558 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21068,7 +22148,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -21086,7 +22166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb99fca-3ce9-4363-8d11-9a56e30ee797")
-		(property "Reference" "J2"
+		(property "Reference" "JJ2"
 			(at 283.21 59.9831 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21183,7 +22263,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J2")
+					(reference "JJ2")
 					(unit 1)
 				)
 			)
@@ -21201,7 +22281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d076edf7-61ea-4d2e-952c-57c6f8273751")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR07"
 			(at 60.96 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -21261,7 +22341,85 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR012")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1d1d36b-44d2-4197-9dcd-28d879e02ca6")
+		(property "Reference" "#PWR041"
+			(at 173.99 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 52.3931 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a8b59ea-42fa-4dc3-8474-0cdf1a9cee22")
+		)
+		(instances
+			(project "FRDM-SX1255+ V2"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -21278,7 +22436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6038313-20f3-4858-91a0-6ffa984254bc")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR021"
 			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -21339,7 +22497,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR017")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -21357,7 +22515,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d63e76b0-6643-4bd0-9a98-e3c26715c976")
-		(property "Reference" "C14"
+		(property "Reference" "C17"
 			(at 196.85 89.154 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21454,7 +22612,231 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C14")
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 160.02 130.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6e9aa60-c3d2-4162-95b4-9bac2cea8586")
+		(property "Reference" "R9"
+			(at 160.782 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1R"
+			(at 159.004 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.02 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.226 134.874 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 160.02 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "ERJ-3BQF1R0V"
+			(at 160.02 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "P17371CT-ND"
+			(at 160.02 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1142372d-6d1d-48f1-af98-f3d6223d5e17")
+		)
+		(pin "2"
+			(uuid "7627116f-a87b-449d-aeee-6d450fc77f69")
+		)
+		(instances
+			(project "FRDM-SX1255+ V2"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 200.66 173.99 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9b5dce1-c2ed-4195-8162-75dcb79ab7f7")
+		(property "Reference" "R19"
+			(at 203.2 174.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "1R"
+			(at 203.2 172.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 200.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 196.596 171.196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic Industry"
+			(at 200.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" "ERJ-3BQF1R0V"
+			(at 200.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "P17371CT-ND"
+			(at 200.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "879db347-9156-42f6-b1e8-dc5fb7bfa4a8")
+		)
+		(pin "2"
+			(uuid "fe9f1f2f-1a07-45d8-8d2f-789df341cbf4")
+		)
+		(instances
+			(project "FRDM-SX1255+ V2"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -21471,7 +22853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9c5fb3a-bd27-4d77-8337-5efc79688eb8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 95.25 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -21532,7 +22914,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -21668,6 +23050,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e065781f-98af-417e-a68f-e86e7f9fb04e")
+		(property "Reference" "R34"
+			(at 164.338 42.164 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "220R"
+			(at 164.338 44.704 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 171.704 45.974 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06fc9156-a6b0-4299-9abd-45d1f5a74b2d")
+		)
+		(pin "2"
+			(uuid "428dd067-b6c5-4bda-a67f-34e91fcf3aab")
+		)
+		(instances
+			(project "FRDM-SX1255+ V2"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 123.19 29.21 0)
 		(unit 1)
@@ -21678,7 +23172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e073b90d-7aa0-4c2e-a599-0b20d4fcb9f3")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR017"
 			(at 123.19 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -21738,119 +23232,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 160.02 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e54f5eb8-4415-4488-b0f7-13a1ccb1a336")
-		(property "Reference" "R7"
-			(at 160.782 128.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "1R"
-			(at 159.258 128.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.226 134.874 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "CRCW06031R00FKEA"
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "541-1.00HHCT-ND"
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad027e18-dd71-4882-bfe6-aba684c371a3")
-		)
-		(pin "2"
-			(uuid "a4691b74-9de2-46b6-8928-46dc174cc173")
-		)
-		(instances
-			(project "FRDM-SX1255+ V2"
-				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R7")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -21867,7 +23249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6387f1e-4808-4757-a738-158efdf66195")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 81.28 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -21928,7 +23310,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -21946,7 +23328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e94274c5-3dee-42eb-ac5a-5d831e6ec42b")
-		(property "Reference" "J1"
+		(property "Reference" "JJ1"
 			(at 57.15 62.5233 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22043,7 +23425,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J1")
+					(reference "JJ1")
 					(unit 1)
 				)
 			)
@@ -22060,7 +23442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea4a46cf-4eb2-4182-8d67-18a3b2c9e881")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 66.04 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -22121,7 +23503,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -22139,7 +23521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb60dcba-fbe1-489c-88b8-455e6ed2c890")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 351.79 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22209,7 +23591,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -22227,7 +23609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebf0da57-d67b-49ab-b93e-059705c6b7b3")
-		(property "Reference" "C20"
+		(property "Reference" "C14"
 			(at 160.0136 66.6664 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22322,7 +23704,119 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C20")
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 173.99 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed21c3a5-fca8-4014-84bf-cb1e95064efb")
+		(property "Reference" "R35"
+			(at 173.736 34.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "24R"
+			(at 171.196 34.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 173.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 171.196 42.164 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 173.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Product Number" ""
+			(at 173.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" ""
+			(at 173.99 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5551df5b-a82c-44d2-98ea-9d7e6cb9e1ae")
+		)
+		(pin "2"
+			(uuid "faa770c5-c6fb-4841-ac8a-c47563f25c21")
+		)
+		(instances
+			(project "FRDM-SX1255+ V2"
+				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -22340,7 +23834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f059a35a-0f24-4cb4-ad39-09dd01f08917")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 150.114 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22437,7 +23931,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -22454,7 +23948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3dadb2d-383d-4bfb-974b-ed8165938ef9")
-		(property "Reference" "R34"
+		(property "Reference" "R4"
 			(at 118.364 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22549,7 +24043,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R34")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -22567,7 +24061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e178e6-9f7b-4e38-b667-f1a6ebf32cf3")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR033"
 			(at 223.52 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -22628,7 +24122,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR028")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -22646,7 +24140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f51c0299-1948-44b0-85dd-8357b48643ff")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 222.25 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -22706,7 +24200,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR029")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -22723,7 +24217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f53aec0a-fde5-48fe-990e-77f6472f46f8")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR023"
 			(at 144.78 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -22784,7 +24278,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR018")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -22802,7 +24296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6faaef1-d588-472f-954d-088dcf2ea79e")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 257.81 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -22862,119 +24356,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 115.57 100.33 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f99e30e4-776e-4feb-adbd-9407014721ae")
-		(property "Reference" "R2"
-			(at 116.332 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "1R"
-			(at 114.554 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 115.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 112.776 104.394 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Vishay Dale"
-			(at 115.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "CRCW06031R00FKEA"
-			(at 115.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "541-1.00HHCT-ND"
-			(at 115.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ff9b0fc-1c72-439e-ba49-ddde1d892326")
-		)
-		(pin "2"
-			(uuid "6a1adad0-8d7e-43c1-9be2-e0a6686c6d61")
-		)
-		(instances
-			(project "FRDM-SX1255+ V2"
-				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "R2")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -22991,7 +24373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbf24c94-266d-44ef-abea-1e207fd366ab")
-		(property "Reference" "C17"
+		(property "Reference" "C20"
 			(at 357.124 194.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23086,7 +24468,7 @@
 		(instances
 			(project "FRDM-SX1255+ V2"
 				(path "/f23fb6c7-235c-437c-af25-1fad286dfcda"
-					(reference "C17")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -23157,7 +24539,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "C&K"
+		(property "Manufacturer" "E-Switch"
 			(at 306.07 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -23168,7 +24550,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Product Number" "PTS647SK70SMTR2N LFS"
+		(property "Manufacturer Product Number" "TL3305CF260QG"
 			(at 306.07 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -23179,7 +24561,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part Number" "108-PTS647SK70SMTR2NLFSCT-ND"
+		(property "DigiKey Part Number" "EG5355CT-ND"
 			(at 306.07 185.42 0)
 			(hide yes)
 			(show_name no)
