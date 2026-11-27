@@ -58,19 +58,19 @@ power supply, user interface and RX path.
 | Variant | Folder | Difference |
 |---|---|---|
 | **V2** | [`FRDM-SX1255/`](FRDM-SX1255) | SX1255 TX output → low-pass filter → U.FL |
-| **V2 Plus** | [`FRDM-SX1255+/`](FRDM-SX1255+) | Additional **TX driver amplifier** (Qorvo TQP3M9036, U2) between the SX1255 and the low-pass filter, with a resistive π-attenuator (R29–R31) at its input. The amplifier runs from 5 V and is switched together with the PA via `~PA_EN`. |
+| **V2 Plus** | [`FRDM-SX1255+/`](FRDM-SX1255+) | Additional **TX driver amplifier** (Qorvo TQP3M9036, U2) between the SX1255 and the low-pass filter, with a resistive π-attenuator (R10–R12) at its input. The amplifier runs from 5 V and is switched together with the PA via `~PA_EN`. |
 
 ## Features
 
-- **Separate RX and TX paths** with U.FL connectors (*TX* J1, *RX* J2)
+- **Separate RX and TX paths** with U.FL connectors (*TX* JJ1, *RX* JJ2)
   - RX: SAW band-pass filter (Tai-Saw TA0655A, 430 MHz centre frequency, 2 MHz bandwidth) → LC matching → `RFI`
   - TX: `RFO_P` → low-pass filter (Mini-Circuits LFCN-490+) → U.FL; V2 Plus adds the TQP3M9036 driver amplifier
-- **Switchable PA supply** – P-MOSFET (BSS84) controlled by `~PA_EN`, with a *bypass* solder jumper
+- **Switchable PA supply** – P-MOSFET (DMP1045U) controlled by `~PA_EN`
 - **Power supply** – resettable 500 mA fuse, TVS diode array (SP0502BAHT), ferrite bead and 3.3 V LDO (MCP1703)
 - **User interface**
-  - Three push buttons: *←*, *OK*, *→*
+  - Three push buttons: *Left*, *OK*, *Right*
   - Socket for an I²C OLED display
-  - Status LEDs: *PWR*, *Err*, *Warn*, *Good*
+  - Status LEDs: *PWR*, *Good*, *Info*, *Err*
 
 ## Preview
 
@@ -91,9 +91,9 @@ power supply, user interface and RX path.
 | <img src="documentation/images/pcb-v2-plus-top.png" alt="V2 Plus – top side" width="420"> | <img src="documentation/images/pcb-v2-plus-bottom.png" alt="V2 Plus – bottom side" width="420"> |
 
 The images are rendered from the `.kicad_pcb` files with the KiCad 3D renderer and show the fully
-assembled board with a 0.96″ OLED module plugged into its socket, including the parts that are
-marked *do not populate* in the layout (FRDM headers, OLED socket, SAW filter). After changing the
-layout, run [`./scripts/render.sh`](scripts/render.sh) to update the images.
+assembled board with a 0.96″ OLED module plugged into its socket (J7), including the parts that are
+marked *do not populate* in the layout (FRDM headers, OLED socket and, on V2 Plus, the SAW filter).
+After changing the layout, run [`./scripts/render.sh`](scripts/render.sh) to update the images.
 
 ### 3D models
 
@@ -104,13 +104,13 @@ enclosure) and exported as STEP from KiCad. Most models come from the KiCad stan
 | Part | Footprint | 3D model | Source |
 |---|---|---|---|
 | FRDM headers J1, J2, J3, J4, J9, J12 | Samtec SSQ (FRDM template) | `PinHeader_2xNN_P2.54mm_Vertical` | KiCad library, mounted below the board |
-| U.FL connectors *TX* / *RX* | `U.FL_Molex_MCRF_73412-0110_Vertical` | `U.FL_Hirose_U.FL-R-SMT-1_Vertical`, rotated 90° | KiCad library (no model for the Molex footprint) |
-| Push buttons SW1–SW3 | `PTS647SK38SMTR2LFS` | `SW_SPST_PTS647Sx70` (7.0 mm actuator, as in the BOM) | KiCad library |
+| U.FL connectors JJ1 *TX* / JJ2 *RX* | `U.FL_Molex_MCRF_73412-0110_Vertical` | `U.FL_Hirose_U.FL-R-SMT-1_Vertical`, rotated 90° | KiCad library (no model for the Molex footprint) |
+| Push buttons SW1–SW3 | `PTS647SK38SMTR2LFS` | `SW_SPST_PTS647Sx70` (stand-in for the E-Switch TL3305 in the BOM) | KiCad library |
 | SAW filter X1 (TA0655A) | `Filter_SAW-6_3.8x3.8mm` | [`3dmodels/TA0655A.stp`](FRDM-SX1255/3dmodels/TA0655A.stp) | Project file |
 | TX amplifier U2 (V2 Plus) | `SON50P200X200X95-9N` | `VDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.7mm` | KiCad library |
-| OLED display (plugged into J5) | `PinSocket_1x04_P2.54mm_Vertical` | [`3dmodels/OLED_0.96in_128x64_I2C.stp`](FRDM-SX1255/3dmodels/OLED_0.96in_128x64_I2C.stp) – 0.96″ 128×64 SSD1306 I²C module, as a second model on the socket | Project file |
+| OLED display (plugged into J7) | `PinSocket_1x04_P2.54mm_Vertical` | [`3dmodels/OLED_0.96in_128x64_I2C.stp`](FRDM-SX1255/3dmodels/OLED_0.96in_128x64_I2C.stp) – 0.96″ 128×64 SSD1306 I²C module, as a second model on the socket | Project file |
 
-Mounting holes and the *bypass* solder jumper need no model.
+Mounting holes need no model.
 
 The shield is designed for the NXP FRDM-MCXN947 development board, see the
 [NXP FRDM-MCXN947 product page](https://www.nxp.com/design/design-center/development-boards-and-designs/FRDM-MCXN947)
@@ -120,7 +120,7 @@ for photos, documentation and the board pinout.
 
 | Document | Content |
 |---|---|
-| [Hardware](documentation/hardware.md) | Block overview, header pin assignment, PA supply and *bypass* jumper, power supply, V2 Plus amplifier |
+| [Hardware](documentation/hardware.md) | Block overview, header pin assignment, PA supply, power supply, V2 Plus amplifier, changes in the current layout |
 | [Manufacturing and assembly](documentation/manufacturing.md) | PCB specification, production files, assembly notes, first power-up |
 
 ## Host PC requirements
@@ -170,7 +170,7 @@ Phenix-1255-HW/
    (2 layers, **1.2 mm** board thickness). For assembly, provide the BOM and position files as well.
    Details: [Manufacturing and assembly](documentation/manufacturing.md).
 3. **Assemble** the shield and plug it onto the FRDM-MCXN947.
-4. **Connect antennas / RF cabling** to the U.FL connectors *TX* (J1) and *RX* (J2).
+4. **Connect antennas / RF cabling** to the U.FL connectors *TX* (JJ1) and *RX* (JJ2).
 5. **Install the software** from [phenix-1255-sw](https://github.com/w4tchd0g/phenix-1255-sw).
 
 ## Related projects

@@ -1,8 +1,8 @@
 # Hardware
 
-Description of the Phenix-1255 shield, revision **V2** and the **V2 Plus** variant. The full
-schematics are in [`FRDM-SX1255-V2.pdf`](../FRDM-SX1255/FRDM-SX1255-V2.pdf) and
-[`FRDM-SX1255+ V2.pdf`](../FRDM-SX1255+/FRDM-SX1255+%20V2.pdf); the firmware view of the same
+Description of the Phenix-1255 shield, revision **V2** and the **V2 Plus** variant (layout of
+25 Nov 2026). The full schematics are in [`FRDM-SX1255-V2.pdf`](../FRDM-SX1255/FRDM-SX1255-V2.pdf)
+and [`FRDM-SX1255+ V2.pdf`](../FRDM-SX1255+/FRDM-SX1255+%20V2.pdf); the firmware view of the same
 signals is in
 [`_doc/hardware.md`](https://github.com/w4tchd0g/phenix-1255-sw/blob/develop/_doc/hardware.md)
 of the software repository.
@@ -16,13 +16,13 @@ of the software repository.
 | Block | Parts | Description |
 |---|---|---|
 | Transceiver | IC1 (SX1255) | I/Q interface (I2S) and SPI to the MCX N947 |
-| Reference clock | Y1 (38.4 MHz TCXO) | Clipped sine, 0.5–1 ppm, footprint fits 3225 and 2520 packages |
-| RX path | J2, X1, L2, L3 | U.FL input → SAW band-pass (Tai-Saw TA0655A) → matching (L3 series, L2 shunt) → `RFI` |
-| TX path | C11, FL1, J1 | `RFO_P` → 100 pF → low-pass (Mini-Circuits LFCN-490+) → U.FL output; `RFO_N` is AC-coupled to GND (C14) |
-| TX driver amplifier (V2 Plus only) | U2, R29–R34, L4, C18–C20 | Qorvo TQP3M9036 between `RFO_P` and the low-pass filter, see [below](#tx-driver-amplifier-v2-plus) |
-| PA supply switch | Q1, R2, R4, R5, *bypass* | P-MOSFET switches the SX1255 PA supply (`VBAT3`) |
-| Power supply | F1, D1, L1, U1 | 5 V → PTC fuse → TVS → ferrite bead → 3.3 V LDO |
-| User interface | SW1–SW3, D2–D5, J5 | Push buttons, status LEDs, OLED socket |
+| Reference clock | Y1 (38.4 MHz TCXO), C4, R1 | Clipped sine, 0.5–1 ppm, footprint fits 3225 and 2520 packages |
+| RX path | JJ2, X1, L4, L3 | U.FL input → SAW band-pass (Tai-Saw TA0655A) → matching (L4 39 nH series, L3 82 nH shunt) → `RFI` |
+| TX path | C7, FL1, JJ1 | `RFO_P` → 100 pF → low-pass (Mini-Circuits LFCN-490+) → U.FL output; `RFO_N` is AC-coupled to GND (C17) |
+| TX driver amplifier (V2 Plus only) | U2, R4, R5, R7, R10–R12, L2, C8, C9, C14 | Qorvo TQP3M9036 between `RFO_P` and the low-pass filter, see [below](#tx-driver-amplifier-v2-plus) |
+| PA supply switch | Q1, R2, R6, C10 | P-MOSFET (DMP1045U) switches the SX1255 PA supply (`VBAT3`) |
+| Power supply | F1, D1, L1, U1, C1–C3, C5, C6 | 5 V → PTC fuse → TVS → ferrite bead → 3.3 V LDO |
+| User interface | SW1–SW3, D2–D5, J7 | Push buttons, status LEDs, OLED socket |
 
 ## Shield headers
 
@@ -30,8 +30,7 @@ The shield plugs onto the FRDM-MCXN947 with six headers (J1, J2, J3, J4, J9, J12
 pin numbers below are the shield's pin numbers (see the silkscreen). The MCU pins are taken from the
 firmware's devicetree overlay. Pins not listed are not connected or GND.
 
-> **Note:** On V2 the U.FL connectors are also called J1 (*TX*) and J2 (*RX*). In this document
-> "J1"/"J2" in the header tables mean the FRDM headers.
+The U.FL connectors are called JJ1 (*TX*) and JJ2 (*RX*), so "J1"/"J2" always mean the FRDM headers.
 
 ### J1 – SX1255 I/Q interface and control
 
@@ -57,46 +56,60 @@ firmware's devicetree overlay. Pins not listed are not connected or GND.
 | 15 | `SCL_oled` | P1_1 | LPI2C3 SCL |
 | 17 | `SDA_oled` | P1_0 | LPI2C3 SDA |
 
-All SX1255 signals have 33 Ω series resistors (R8–R22) close to the SX1255.
+The SX1255 signals have series resistors close to the SX1255:
 
-### J3 – Power, PA control and buttons
+| Value | Signals | Parts |
+|---|---|---|
+| 33 Ω | `RST`, `CK_OUT`, `I_OUT`, `MISO`, `DIO0`–`DIO3` | R13, R14, R18, R26, R23, R22, R21, R20 |
+| 330 Ω | `I_IN`, `NSS`, `MOSI`, `SCK` | R17, R24, R25, R27 |
+| 330 Ω to GND | SX1255 `CK_IN`, `Q_IN` (not used) | R15, R16 |
+
+### J3 – Power and buttons
 
 | Pin | Signal | MCU pin | Function |
 |---|---|---|---|
-| 1 | `BTN_LEFT` | P2_0 | Push button SW3 *←* |
-| 3 | `BTN_RIGHT` | P1_22 | Push button SW1 *→* |
+| 1 | `BTN_LEFT` | P2_0 | Push button SW3 *Left* |
+| 3 | `BTN_OK` | P1_22 | Push button SW2 *OK* |
 | 4 | `+3.3V` | | 3.3 V of the FRDM board for the OLED socket and the buttons |
 | 10 | `+5V0` | | Main supply of the shield |
-| 11 | `~PA_EN` | P2_4 | PA supply enable, active low |
-| 13 | `USB/LAN` | P2_7 | Not connected on V2 (the slide switch of V1.3 was removed) |
+| 12, 14 | GND | | |
 
 ### J4 – Button and status LEDs
 
 | Pin | Signal | Colour | MCU pin |
 |---|---|---|---|
-| 1 | `BTN_OK` – push button SW2 *OK* | | P4_12 / P0_21 |
-| 6 | D5 *Err* | red | P0_14 |
-| 8 | D4 *Warn* | yellow | P0_22 |
-| 10 | D3 *Good* | green | P0_15 |
+| 1 | `BTN_RIGHT` – push button SW1 *Right* | | P4_12 / P0_21 |
+| 6 | D3 *Good* | green | P0_14 |
+| 8 | D4 *Info* | yellow | P0_22 |
+| 10 | D5 *Err* | red | P0_15 |
 
-The LEDs are driven active high through 1.5 kΩ resistors (R24–R26). D2 *PWR* is on the shield's
-3.3 V rail.
+The LEDs are driven active high through 1.5 kΩ resistors (R31 *Good*, R32 *Info*, R33 *Err*). D2
+*PWR* is on the shield's 3.3 V rail (R8, 3.3 kΩ).
 
 Where two MCU pins are listed, the FRDM board routes the header pin to one of them via a jumper or
-resistor option. Check the FRDM-MCXN947 schematic for the default (e.g. J4 pin 10 can also be
-routed to P2_0, which is already used by `BTN_LEFT`).
+resistor option. Check the FRDM-MCXN947 schematic for the default (the firmware uses P4_12 for
+`BTN_RIGHT`; J4 pin 10 can also be routed to P2_0, which is already used by `BTN_LEFT`).
 
-### J9, J12
+### J9 – PA enable
 
-Only GND is used.
+| Pin | Signal | MCU pin | Function |
+|---|---|---|---|
+| 23 | `~PA_EN` | P1_23 | PA supply enable, active low (V2 Plus: also enables the TX driver amplifier) |
+
+The firmware reads a hardware ID from P1_19 (J9-5), P3_5 (J9-11) and P3_4 (J9-12) with internal
+pull-downs. These pins are not connected on this board, so the ID reads 0.
+
+### J12
+
+Only GND (pin 2) is used.
 
 ## Other connectors
 
 | Connector | Type | Use |
 |---|---|---|
-| J1 *TX* | U.FL | Transmitter output, 1 MΩ to GND (R3) |
-| J2 *RX* | U.FL | Receiver input, 1 MΩ to GND (R23) |
-| J5 *I2C OLED* | 1×4 socket, 2.54 mm | 1 GND · 2 +3.3V · 3 SCL · 4 SDA (33 Ω series resistors R27/R28) |
+| JJ1 *TX* | U.FL | Transmitter output, 1 MΩ to GND (R3) |
+| JJ2 *RX* | U.FL | Receiver input, 1 MΩ to GND (R28) |
+| J7 *I2C OLED* | 1×4 socket, 2.54 mm | 1 GND · 2 +3.3V · 3 SCL · 4 SDA (33 Ω series resistors R29/R30) |
 
 ## Board functions
 
@@ -105,25 +118,27 @@ Only GND is used.
 SW1–SW3 switch to the FRDM 3.3 V rail and have no external pull-downs. Enable the **internal
 pull-downs** on `BTN_LEFT`, `BTN_OK` and `BTN_RIGHT`; a pressed button reads as `1`.
 
-### PA supply and *bypass* jumper
+### PA supply
 
-The SX1255 PA supply (`VBAT3`) is fed from 3.3 V through R2 (1 Ω) and the P-MOSFET Q1 (BSS84).
-R4 pulls the gate up, so the PA is **off** until the firmware pulls `~PA_EN` low (through R5).
+The SX1255 PA supply (`VBAT3`) is fed from 3.3 V through R2 (1 Ω) and the P-MOSFET Q1
+(Diodes DMP1045U), with C10 (1 µF) at the source. The gate is driven from `~PA_EN` through R6
+(330 Ω); the PA is on while `~PA_EN` is low.
 
-The open solder jumper ***bypass*** bridges Q1. Closing it powers the PA permanently, independent
-of the firmware.
+The gate has **no pull-up resistor** on the shield. While P1_23 is not driven (reset, before the
+firmware configures it) the PA state is undefined, so the firmware should set `~PA_EN` high as
+early as possible. The *bypass* solder jumper of earlier V2 layouts has been removed.
 
 ### TX driver amplifier (V2 Plus)
 
 ```
-RFO_P ─ π-attenuator (R29 150 Ω / R30 36 Ω / R31 150 Ω) ─ C20 ─ U2 TQP3M9036 ─ C11 ─ FL1 LFCN-490+ ─ J1 TX
+RFO_P ─ π-attenuator (R12 150 Ω / R11 36 Ω / R10 150 Ω) ─ C14 ─ U2 TQP3M9036 ─ C7 ─ FL1 LFCN-490+ ─ JJ1 TX
                                                                   │
-                                                     +5V0 ─ L4 68 nH (bias feed)
+                                                     +5V0 ─ L2 68 nH (bias feed)
 ```
 
-- U2 is supplied from `+5V0` through L4 into its RF output (C18/C19 decoupling).
-- U2 pin 6 is driven from `~PA_EN` through R34/R33 with R32 to GND, so the amplifier follows the PA
-  enable signal.
+- U2 is supplied from `+5V0` through L2 into its RF output (C8/C9 decoupling).
+- U2 pin 6 is driven from `~PA_EN` through R4 (1 Ω) and R5 (33 kΩ) with R7 (10 kΩ) to GND, so the
+  amplifier follows the PA enable signal.
 
 ### Power supply
 
@@ -132,8 +147,28 @@ J3-10 (+5V0) ─ F1 500 mA PTC ─┬─ L1 ferrite bead ─ U1 MCP1703 (3.3 V) 
                               └─ D1 TVS (SP0502BAHT)
 ```
 
-The FRDM-MCXN947 supplies the 5 V. With a 48 V → 5 V USB-C PoE splitter the setup can be powered
-over Ethernet.
+C3 (1 µF) sits behind the fuse, C5 (22 µF) at the LDO input and C1 (22 µF), C2 (100 nF) and C6
+(1 µF) at its output. The FRDM-MCXN947 supplies the 5 V. With a 48 V → 5 V USB-C PoE splitter the
+setup can be powered over Ethernet.
+
+## Changes in the layout of 25 Nov 2026
+
+Compared with the V2 layout of 4 Nov 2026:
+
+| Change | Before | Now |
+|---|---|---|
+| Reference designators | | Re-annotated. U.FL connectors are now JJ1/JJ2, the OLED socket is J7 |
+| `~PA_EN` | J3-11 | J9-23 (P1_23) |
+| `BTN_OK` / `BTN_RIGHT` | J4-1 / J3-3 | J3-3 / J4-1 |
+| Status LEDs on J4-6 / -8 / -10 | *Err* / *Warn* / *Good* | *Good* / *Info* / *Err* |
+| LED D4 | *Warn* | *Info* |
+| `USB/LAN` (J3-13) | unused net on the header | removed |
+| PA switch Q1 | BSS84, gate pull-up R4 10 kΩ, *bypass* jumper | DMP1045U, no pull-up, no jumper |
+| Push buttons | C&K PTS647SK70SMTR2N LFS | E-Switch TL3305CF260QG (same footprint) |
+| 22 µF capacitors | CL31B226MPHNNNE | CL21A226KOQNNNE |
+
+The firmware on the `develop` branch of
+[phenix-1255-sw](https://github.com/w4tchd0g/phenix-1255-sw) already uses the new pin assignment.
 
 ## Board views
 
